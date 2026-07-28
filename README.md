@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".terra/assets/logo_terra.png" alt="Terra Ecosystem Logo" width="220" />
+  <img src="assets/logo_terra.png" alt="Terra Ecosystem Logo" width="220" />
 </p>
 
 <h1 align="center">TERRA ECOSYSTEM</h1>
@@ -42,7 +42,7 @@ Terra transforma de forma legítima y creativa las primitivas gratuitas de la pl
 ## 🐝 Hiven: El Agente Cognitivo Autónomo
 
 <p align="center">
-  <img src=".terra/assets/logo_hiven.png" alt="Hiven Agent Logo" width="140" />
+  <img src="assets/logo_hiven.png" alt="Hiven Agent Logo" width="140" />
 </p>
 
 <p align="center">
