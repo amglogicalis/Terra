@@ -56,26 +56,42 @@ Es un agente de ingeniería de software autónomo multi-agente (*Swarm*) de cód
 
 ---
 
+## 🗄️ Rolla: Motor de Almacenamiento de Objetos
+
+<p align="center">
+  <img src="assets/logo_rolla.png" alt="Rolla Storage Logo" width="140" />
+</p>
+
+<p align="center">
+  <strong>Rolla</strong> es el almacén de objetos inmutable e ilimitado a coste $0 del ecosistema.
+</p>
+
+Permite almacenar e intercambiar archivos de cualquier tamaño mediante **Rolla-Balls** (*Balls*) sobre GitHub Releases, con soporte transparente para fragmentación (*chunking*) de archivos >2GB y distribución perimetral global. Incluye SDK para Node.js/TypeScript, CLI interactiva y consola web nativa.
+
+👉 **Explora el repositorio oficial de Rolla:** [Rolla Public Repository](https://github.com/amglogicalis/rolla-repo-public)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por 14 aplicaciones modulares independientes que pueden operar de forma aislada o en perfecta sinergia:
 
-| App | Dominio | Descripción |
-| :--- | :--- | :--- |
-| 🐝 **Hiven** | *AI & Logic* | Agente cognitivo autónomo y sintetizador de lógica multi-enjambre (**Completado**). |
-| 🗄️ **Rolla** | *Object Storage* | Motor de almacenamiento de objetos inmutable e ilimitado sobre Releases/Tags. |
-| 🌐 **Webbl** | *Hosting & CDN* | Alojamiento frontend estático instantáneo con distribución perimetral. |
-| 📊 **Libella** | *Observabilidad & FinOps* | Panóptico universal de telemetría, métricas y control de costes $0. |
-| ⏰ **Syncada** | *Orquestación & Crons* | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
-| 🐜 **Formica** | *Event Mesh & Data* | Bus de eventos (Pheromones), K/V store (Chambers) y observabilidad (Foragers). |
-| 🦟 **Maskito** | *Testing & Data* | Motor de pruebas de estrés masivo y siembra sintética de datos. |
-| 🕷️ **Termes** | *Scraping & APIs* | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
-| ⚡ **Pheri** | *Real-Time Streaming* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
-| 🐝 **MockHive** | *Compute & Serverless* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
-| 🛡️ **Waisp** | *Red Teaming* | Orquestador de seguridad ofensiva y pentesting dinámico (DAST) automatizado. |
-| 🦗 **Chiton** | *Gobernanza & FinOps* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
-| 🔐 **Lumina** | *IAM & Identity* | Proveedor de identidad stateless, Magic Links y emisión de tokens JWT. |
-| 🧠 **Mantx** | *AutoML & LLMOps* | Arena de batalla de modelos ML/SLM e inferencia predictiva efímera. |
+| App | Dominio | Estado | Descripción |
+| :--- | :--- | :---: | :--- |
+| 🐝 **Hiven** | *AI & Logic* | 🟢 **Completado** | Agente cognitivo autónomo y sintetizador de lógica multi-enjambre. |
+| 🗄️ **Rolla** | *Object Storage* | 🟢 **Completado** | Motor de almacenamiento de objetos inmutable e ilimitado sobre Rolla-Balls. |
+| 🌐 **Webbl** | *Hosting & CDN* | 🟡 *En Desarrollo* | Alojamiento frontend estático instantáneo con distribución perimetral. |
+| 📊 **Libella** | *Observabilidad & FinOps* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes $0. |
+| ⏰ **Syncada** | *Orquestación & Crons* | ⚪ *Planificado* | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
+| 🐜 **Formica** | *Event Mesh & Data* | ⚪ *Planificado* | Bus de eventos (Pheromones), K/V store (Chambers) y observabilidad (Foragers). |
+| 🦟 **Maskito** | *Testing & Data* | ⚪ *Planificado* | Motor de pruebas de estrés masivo y siembra sintética de datos. |
+| 🕷️ **Termes** | *Scraping & APIs* | ⚪ *Planificado* | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
+| ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
+| 🐝 **MockHive** | *Compute & Serverless* | ⚪ *Planificado* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
+| 🛡️ **Waisp** | *Red Teaming* | ⚪ *Planificado* | Orquestador de seguridad ofensiva y pentesting dinámico (DAST) automatizado. |
+| 🦗 **Chiton** | *Gobernanza & FinOps* | ⚪ *Planificado* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
+| 🔐 **Lumina** | *IAM & Identity* | ⚪ *Planificado* | Proveedor de identidad stateless, Magic Links y emisión de tokens JWT. |
+| 🧠 **Mantx** | *AutoML & LLMOps* | ⚪ *Planificado* | Arena de batalla de modelos ML/SLM e inferencia predictiva efímera. |
 
 ---
 
