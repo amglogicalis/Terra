@@ -1,0 +1,7 @@
+# Ignorar carpetas temporales o de entorno si aplicara
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de contexto/artefactos de Gemini
+.gemini/
