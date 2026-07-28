@@ -13,7 +13,8 @@
   <a href="#-el-motor-subyacente-github-engine">GitHub Engine</a> •
   <a href="#-las-aplicaciones-del-ecosistema">Apps del Ecosistema</a> •
   <a href="#-hiven-el-agente-cognitivo">Hiven AI</a> •
-  <a href="#-hoja-de-ruta">Roadmap</a>
+  <a href="#-hoja-de-ruta">Roadmap</a> •
+  <a href="LICENSE">Licencia MIT</a>
 </p>
 
 ---
