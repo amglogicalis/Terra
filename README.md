@@ -43,7 +43,7 @@ Terra transforma de forma legítima y creativa las primitivas gratuitas de la pl
 ## 🐝 Hiven: El Agente Cognitivo Autónomo
 
 <p align="center">
-  <img src="assets/logo_hiven.png" alt="Hiven Agent Logo" width="140" />
+  <img src="assets/logo_hiven_v2.png" alt="Hiven Agent Logo" width="140" />
 </p>
 
 <p align="center">
@@ -74,36 +74,47 @@ Permite almacenar e intercambiar archivos de cualquier tamaño mediante **Rolla-
 
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
-El ecosistema está compuesto por 14 aplicaciones modulares independientes que pueden operar de forma aislada o en perfecta sinergia:
+El ecosistema está compuesto por **22 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
 
 | App | Dominio | Estado | Descripción |
 | :--- | :--- | :---: | :--- |
 | 🐝 **Hiven** | *AI & Logic* | 🟢 **Completado** | Agente cognitivo autónomo y sintetizador de lógica multi-enjambre. |
 | 🗄️ **Rolla** | *Object Storage* | 🟢 **Completado** | Motor de almacenamiento de objetos inmutable e ilimitado sobre Rolla-Balls. |
 | 🌐 **Webbl** | *Hosting & CDN* | 🟡 *En Desarrollo* | Alojamiento frontend estático instantáneo con distribución perimetral. |
-| 📊 **Libella** | *Observabilidad & FinOps* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes $0. |
+| 🏛️ **Combase** | *Base de Datos Efímera* | ⚪ *Planificado* | Motor transaccional y base de datos estructurada efímera de coste $0. |
+| 🔐 **Lumina** | *IAM & Identity* | ⚪ *Planificado* | Proveedor de identidad stateless, Magic Links y emisión de tokens JWT. |
+| 🛡️ **Synchlor** | *Gestión de Secretos* | ⚪ *Planificado* | Camuflaje de credenciales y gestión de secretos efímeros. |
 | ⏰ **Syncada** | *Orquestación & Crons* | ⚪ *Planificado* | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
 | 🐜 **Formica** | *Event Mesh & Data* | ⚪ *Planificado* | Bus de eventos (Pheromones), K/V store (Chambers) y observabilidad (Foragers). |
+| 🦗 **Grillout** | *Colas & Mensajería* | ⚪ *Planificado* | Motor de colas asíncronas, mensajería y notificaciones efímeras. |
+| ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
+| 🎭 **Ballom** | *DNS & Routing* | ⚪ *Planificado* | Capa de enmascaramiento DNS, routing inteligente y proxy perimetral. |
+| 🐝 **MockHive** | *Compute & Serverless* | ⚪ *Planificado* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
 | 🦟 **Maskito** | *Testing & Data* | ⚪ *Planificado* | Motor de pruebas de estrés masivo y siembra sintética de datos. |
 | 🕷️ **Termes** | *Scraping & APIs* | ⚪ *Planificado* | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
-| ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
-| 🐝 **MockHive** | *Compute & Serverless* | ⚪ *Planificado* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
+| 🦎 **Lepisma** | *Salud de Dependencias* | ⚪ *Planificado* | Motor de salud estructural, mapeo de dependencias y anti-decadencia. |
 | 🛡️ **Waisp** | *Red Teaming* | ⚪ *Planificado* | Orquestador de seguridad ofensiva y pentesting dinámico (DAST) automatizado. |
 | 🦗 **Chiton** | *Gobernanza & FinOps* | ⚪ *Planificado* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
-| 🔐 **Lumina** | *IAM & Identity* | ⚪ *Planificado* | Proveedor de identidad stateless, Magic Links y emisión de tokens JWT. |
+| 🐜 **Formica Legionarys** | *Purgado Universal* | ⚪ *Planificado* | Motor de limpieza de estado, destrucción de recursos huérfanos e infraestructura efímera. |
+| 🦋 **Decrefly** | *Control Financiero* | ⚪ *Planificado* | Motor de equilibrio activo, techo financiero y arquitectura de suma cero. |
+| 📊 **Libella** | *Observabilidad & Telemetría* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes efímero. |
 | 🧠 **Mantx** | *AutoML & LLMOps* | ⚪ *Planificado* | Arena de batalla de modelos ML/SLM e inferencia predictiva efímera. |
+| 🎛️ **Terra Console & Hub** | *Orquestación & Comunidad* | ⚪ *Planificado* | Centro de mando unificado y ecosistema público (Forest, Library, Colony). |
 
 ---
 
 ## 🚀 Hoja de Ruta de Desarrollo
 
-Para abordar la creación incremental del ecosistema de manera lógica, seguiremos el siguiente orden de implementación:
+El criterio de ordenación es sencillo: **no se implementa una herramienta hasta que exista algo que justifique su existencia**. Una herramienta de observabilidad (`Libella`) no tiene sentido antes de que haya apps que observar. Un motor de purgado (`Formica Legionarys`) no tiene sentido antes de que exista infraestructura que purgar.
 
-1. **Fase 1 (Fundación):** `Rolla` ➡️ `Webbl`
-2. **Fase 2 (Tiempo & Observabilidad):** `Libella` ➡️ `Syncada` ➡️ `Formica`
-3. **Fase 3 (Cómputo e Identidad):** `MockHive` ➡️ `Lumina`
-4. **Fase 4 (Datos & Stress):** `Termes` ➡️ `Maskito` ➡️ `Pheri`
-5. **Fase 5 (Gobernanza, Seguridad & AI):** `Chiton` ➡️ `Waisp` ➡️ `Mantx`
+1. **🧱 Fase 1 — Fundamentos:** `Webbl` ➡️ `Combase` *(almacenamiento, hosting y base de datos)*
+2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ➡️ `Synchlor` *(auth y gestión de secretos)*
+3. **🔗 Fase 3 — Comunicación & Orquestación:** `Syncada` ➡️ `Formica` ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
+4. **🌐 Fase 4 — Red & Compute:** `Ballom` ➡️ `MockHive` *(routing y cómputo efímero)*
+5. **🧪 Fase 5 — Testing & Calidad:** `Maskito` ➡️ `Termes` ➡️ `Lepisma` ➡️ `Waisp` *(validación de lo existente)*
+6. **🧹 Fase 6 — Gobernanza & Control:** `Chiton` ➡️ `Formica Legionarys` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa)*
+7. **🧠 Fase 7 — Inteligencia Artificial:** `Mantx` *(capa avanzada sobre infra consolidada)*
+8. **🎛️ Fase 8 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
 
 ---
 
