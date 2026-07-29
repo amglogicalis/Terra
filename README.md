@@ -74,7 +74,7 @@ Permite almacenar e intercambiar archivos de cualquier tamaño mediante **Rolla-
 
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
-El ecosistema está compuesto por **22 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
+El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
 
 | App | Dominio | Estado | Descripción |
 | :--- | :--- | :---: | :--- |
@@ -85,7 +85,7 @@ El ecosistema está compuesto por **22 aplicaciones modulares** («Titanes») qu
 | 🔐 **Lumina** | *IAM & Identity* | ⚪ *Planificado* | Proveedor de identidad stateless, Magic Links y emisión de tokens JWT. |
 | 🛡️ **Synchlor** | *Gestión de Secretos* | ⚪ *Planificado* | Camuflaje de credenciales y gestión de secretos efímeros. |
 | ⏰ **Syncada** | *Orquestación & Crons* | ⚪ *Planificado* | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
-| 🐜 **Formica** | *Event Mesh & Data* | ⚪ *Planificado* | Bus de eventos (Pheromones), K/V store (Chambers) y observabilidad (Foragers). |
+| 🐜 **Formica** | *Event Mesh & Purgado* | ⚪ *Planificado* | Bus de eventos (Pheromones), K/V store (Chambers), telemetría (Foragers) y purgado universal efímero (Legionarys). |
 | 🦗 **Grillout** | *Colas & Mensajería* | ⚪ *Planificado* | Motor de colas asíncronas, mensajería y notificaciones efímeras. |
 | ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
 | 🎭 **Ballom** | *DNS & Routing* | ⚪ *Planificado* | Capa de enmascaramiento DNS, routing inteligente y proxy perimetral. |
@@ -95,7 +95,6 @@ El ecosistema está compuesto por **22 aplicaciones modulares** («Titanes») qu
 | 🦎 **Lepisma** | *Salud de Dependencias* | ⚪ *Planificado* | Motor de salud estructural, mapeo de dependencias y anti-decadencia. |
 | 🛡️ **Waisp** | *Red Teaming* | ⚪ *Planificado* | Orquestador de seguridad ofensiva y pentesting dinámico (DAST) automatizado. |
 | 🦗 **Chiton** | *Gobernanza & FinOps* | ⚪ *Planificado* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
-| 🐜 **Formica Legionarys** | *Purgado Universal* | ⚪ *Planificado* | Motor de limpieza de estado, destrucción de recursos huérfanos e infraestructura efímera. |
 | 🦋 **Decrefly** | *Control Financiero* | ⚪ *Planificado* | Motor de equilibrio activo, techo financiero y arquitectura de suma cero. |
 | 📊 **Libella** | *Observabilidad & Telemetría* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes efímero. |
 | 🧠 **Mantx** | *AutoML & LLMOps* | ⚪ *Planificado* | Arena de batalla de modelos ML/SLM e inferencia predictiva efímera. |
