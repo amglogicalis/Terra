@@ -88,6 +88,22 @@ Permite desplegar proyectos web (Vite, React, Astro, Next.js estático) en **Coc
 
 ---
 
+## 🏛️ Combase: Motor de Base de Datos & Time-Travel
+
+<p align="center">
+  <img src="assets/logo_combase.png" alt="Combase Database Logo" width="140" onerror="this.src='https://raw.githubusercontent.com/amglogicalis/combase-repo-public/main/assets/logo_combase.png'" />
+</p>
+
+<p align="center">
+  <strong>Combase</strong> es el motor de base de datos relacional y documental transaccional del ecosistema Terra a coste $0.
+</p>
+
+Permite ejecutar consultas ANSI SQL y sobre JSON en repositorios protegidos `.combase-storage`, ofrece **Zero-Copy Database Branching**, **Time-Travel Querying** (consultas a cualquier estado del pasado) y replicación multicloud hacia **PostgreSQL**, **Supabase**, **AWS DynamoDB** y **SQLite**. Incluye entorno de desarrollo visual **COMBASE SQL Studio** y CLI.
+
+👉 **Explora el repositorio oficial de Combase:** [Combase Public Repository](https://github.com/amglogicalis/combase-repo-public)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
@@ -97,8 +113,8 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🐝 **Hiven** | *AI & Logic* | 🟢 **Completado** | Agente cognitivo autónomo y sintetizador de lógica multi-enjambre. |
 | 🗄️ **Rolla** | *Object Storage* | 🟢 **Completado** | Motor de almacenamiento de objetos inmutable e ilimitado sobre Rolla-Balls. |
 | 🌐 **Webbl** | *Hosting & CDN* | 🟢 **Completado** | Alojamiento frontend estático instantáneo con distribución perimetral (Cocoons, Morphs & Chrysalis). |
-| 🏛️ **Combase** | *Base de Datos Efímera* | 🟡 **En Progreso** | Motor transaccional y base de datos estructurada efímera de coste $0. |
-| 🔐 **Lumina** | *IAM & Identity* | ⚪ *Planificado* | Proveedor de identidad stateless, Magic Links y emisión de tokens JWT. |
+| 🏛️ **Combase** | *Base de Datos Efímera* | 🟢 **Completado** | Motor relacional/documental transaccional, Zero-Copy Branching y Time-Travel a coste $0. |
+| 🔐 **Lumina** | *IAM & Identity* | 🟡 **En Progreso** | Proveedor de identidad stateless, Magic Links y emisión de tokens JWT. |
 | 🛡️ **Synchlor** | *Gestión de Secretos* | ⚪ *Planificado* | Camuflaje de credenciales y gestión de secretos efímeros. |
 | ⏰ **Syncada** | *Orquestación & Crons* | ⚪ *Planificado* | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
 | 🐜 **Formica** | *Event Mesh & Purgado* | ⚪ *Planificado* | Bus de eventos (Pheromones), K/V store (Chambers), telemetría (Foragers) y purgado universal efímero (Legionarys). |
