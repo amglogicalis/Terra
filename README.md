@@ -72,6 +72,22 @@ Permite almacenar e intercambiar archivos de cualquier tamaño mediante **Rolla-
 
 ---
 
+## 🌐 Webbl: Motor de Hosting & CDN Global
+
+<p align="center">
+  <img src="assets/logo_webbl.png" alt="Webbl Hosting Logo" width="140" onerror="this.src='https://raw.githubusercontent.com/amglogicalis/webbl-repo-public/main/logo_webbl.png'" />
+</p>
+
+<p align="center">
+  <strong>Webbl</strong> es la infraestructura de alojamiento estático, SPAs y Serverless Morphs del ecosistema Terra a coste $0.
+</p>
+
+Permite desplegar proyectos web (Vite, React, Astro, Next.js estático) en **Cocoons** sobre GitHub Pages, ejecutar funciones Serverless (**Async, Build y Hatch Morphs**) y utilizar inteligencia de compilación (**Chrysalis**). Incluye consola web interactiva 24/7 y CLI.
+
+👉 **Explora el repositorio oficial de Webbl:** [Webbl Public Repository](https://github.com/amglogicalis/webbl-repo-public)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
@@ -80,8 +96,8 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | :--- | :--- | :---: | :--- |
 | 🐝 **Hiven** | *AI & Logic* | 🟢 **Completado** | Agente cognitivo autónomo y sintetizador de lógica multi-enjambre. |
 | 🗄️ **Rolla** | *Object Storage* | 🟢 **Completado** | Motor de almacenamiento de objetos inmutable e ilimitado sobre Rolla-Balls. |
-| 🌐 **Webbl** | *Hosting & CDN* | 🟡 *En Desarrollo* | Alojamiento frontend estático instantáneo con distribución perimetral. |
-| 🏛️ **Combase** | *Base de Datos Efímera* | ⚪ *Planificado* | Motor transaccional y base de datos estructurada efímera de coste $0. |
+| 🌐 **Webbl** | *Hosting & CDN* | 🟢 **Completado** | Alojamiento frontend estático instantáneo con distribución perimetral (Cocoons, Morphs & Chrysalis). |
+| 🏛️ **Combase** | *Base de Datos Efímera* | 🟡 **En Progreso** | Motor transaccional y base de datos estructurada efímera de coste $0. |
 | 🔐 **Lumina** | *IAM & Identity* | ⚪ *Planificado* | Proveedor de identidad stateless, Magic Links y emisión de tokens JWT. |
 | 🛡️ **Synchlor** | *Gestión de Secretos* | ⚪ *Planificado* | Camuflaje de credenciales y gestión de secretos efímeros. |
 | ⏰ **Syncada** | *Orquestación & Crons* | ⚪ *Planificado* | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
