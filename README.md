@@ -116,8 +116,7 @@ Permite ejecutar consultas ANSI SQL y sobre JSON en repositorios protegidos `.co
 
 Permite aislar completamente entornos mediante **Sanctuaries** (`production`, `staging`), gestionar identidades multi-rol (**Photuris Vault**), evaluar políticas `Allow`/`Deny` con wildcards (`*`) sobre recursos `arn:terra:...` (**Pyralis IAM**), firmar y verificar JWTs y publicar claves públicas JWKS (**Luciole Engine**), emitir Magic Links sin contraseña (**LanternLinks**), gestionar accesos de emergencia super-admin de 15 min (**Glowworm Break-Glass**) y exportar a Auth0, Supabase, AWS IAM y Firebase (**Coleoptera Bridge**). Incluye consola web visual **LUMINA Studio** (desplegada online 24/7) y CLI.
 
-👉 **Explora el repositorio oficial de Lumina:** [Lumina Public Repository](https://github.com/amglogicalis/lumina-repo-public)  
-🌐 **Consola Web Online:** [LUMINA Studio Web Console](https://amglogicalis.github.io/lumina-repo-public/)
+👉 **Explora el repositorio oficial de Lumina:** [Lumina Public Repository](https://github.com/amglogicalis/lumina-repo-public)
 
 ---
 
