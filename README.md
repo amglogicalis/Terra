@@ -104,6 +104,23 @@ Permite ejecutar consultas ANSI SQL y sobre JSON en repositorios protegidos `.co
 
 ---
 
+## 🔐 Lumina: Identidad, Políticas IAM & Sanctuaries Multi-Entorno
+
+<p align="center">
+  <img src="assets/logo_lumina.png" alt="Lumina Identity Logo" width="140" onerror="this.src='https://raw.githubusercontent.com/amglogicalis/lumina-repo-public/main/assets/logo_lumina.png'" />
+</p>
+
+<p align="center">
+  <strong>Lumina</strong> es la infraestructura de identidad (IdP), Sanctuaries multi-entorno, políticas granulares estilo AWS IAM y broker multicloud del ecosistema Terra a coste $0.
+</p>
+
+Permite aislar completamente entornos mediante **Sanctuaries** (`production`, `staging`), gestionar identidades multi-rol (**Photuris Vault**), evaluar políticas `Allow`/`Deny` con wildcards (`*`) sobre recursos `arn:terra:...` (**Pyralis IAM**), firmar y verificar JWTs y publicar claves públicas JWKS (**Luciole Engine**), emitir Magic Links sin contraseña (**LanternLinks**), gestionar accesos de emergencia super-admin de 15 min (**Glowworm Break-Glass**) y exportar a Auth0, Supabase, AWS IAM y Firebase (**Coleoptera Bridge**). Incluye consola web visual **LUMINA Studio** (desplegada online 24/7) y CLI.
+
+👉 **Explora el repositorio oficial de Lumina:** [Lumina Public Repository](https://github.com/amglogicalis/lumina-repo-public)  
+🌐 **Consola Web Online:** [LUMINA Studio Web Console](https://amglogicalis.github.io/lumina-repo-public/)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
@@ -114,13 +131,13 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🗄️ **Rolla** | *Object Storage* | 🟢 **Completado** | Motor de almacenamiento de objetos inmutable e ilimitado sobre Rolla-Balls. |
 | 🌐 **Webbl** | *Hosting & CDN* | 🟢 **Completado** | Alojamiento frontend estático instantáneo con distribución perimetral (Cocoons, Morphs & Chrysalis). |
 | 🏛️ **Combase** | *Base de Datos Efímera* | 🟢 **Completado** | Motor relacional/documental transaccional, Zero-Copy Branching y Time-Travel a coste $0. |
-| 🔐 **Lumina** | *IAM & Identity* | 🟡 **En Progreso** | Proveedor de identidad stateless, Magic Links y emisión de tokens JWT. |
+| 🔐 **Lumina** | *IAM & Identity* | 🟢 **Completado** | Proveedor de identidad, Sanctuaries multi-entorno, políticas granulares AWS IAM, JWT/JWKS & Magic Links. |
+| 🎭 **Ballom** | *DNS & Routing* | 🟡 **En Desarrollo (Próxima)** | Capa de enmascaramiento DNS, routing inteligente, alias dinámicos y proxy perimetral fantasma. |
 | 🛡️ **Synchlor** | *Gestión de Secretos* | ⚪ *Planificado* | Camuflaje de credenciales y gestión de secretos efímeros. |
 | ⏰ **Syncada** | *Orquestación & Crons* | ⚪ *Planificado* | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
 | 🐜 **Formica** | *Event Mesh & Purgado* | ⚪ *Planificado* | Bus de eventos (Pheromones), K/V store (Chambers), telemetría (Foragers) y purgado universal efímero (Legionarys). |
 | 🦗 **Grillout** | *Colas & Mensajería* | ⚪ *Planificado* | Motor de colas asíncronas, mensajería y notificaciones efímeras. |
 | ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
-| 🎭 **Ballom** | *DNS & Routing* | ⚪ *Planificado* | Capa de enmascaramiento DNS, routing inteligente y proxy perimetral. |
 | 🐝 **MockHive** | *Compute & Serverless* | ⚪ *Planificado* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
 | 🦟 **Maskito** | *Testing & Data* | ⚪ *Planificado* | Motor de pruebas de estrés masivo y siembra sintética de datos. |
 | 🕷️ **Termes** | *Scraping & APIs* | ⚪ *Planificado* | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
@@ -140,12 +157,13 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 
 1. **🧱 Fase 1 — Fundamentos:** `Webbl` ➡️ `Combase` *(almacenamiento, hosting y base de datos)*
 2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ➡️ `Synchlor` *(auth y gestión de secretos)*
-3. **🔗 Fase 3 — Comunicación & Orquestación:** `Syncada` ➡️ `Formica` ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
-4. **🌐 Fase 4 — Red & Compute:** `Ballom` ➡️ `MockHive` *(routing y cómputo efímero)*
-5. **🧪 Fase 5 — Testing & Calidad:** `Maskito` ➡️ `Termes` ➡️ `Lepisma` ➡️ `Waisp` *(validación de lo existente)*
-6. **🧹 Fase 6 — Gobernanza & Control:** `Chiton` ➡️ `Formica Legionarys` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa)*
-7. **🧠 Fase 7 — Inteligencia Artificial:** `Mantx` *(capa avanzada sobre infra consolidada)*
-8. **🎛️ Fase 8 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
+3. **🌐 Fase 4 — Red & Enrutamiento (Adelantada por sinergia):** `Ballom` *(routing, alias dinámicos y proxy perimetral)*
+4. **🔗 Fase 3 — Comunicación & Orquestación:** `Syncada` ➡️ `Formica` ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
+5. **🐝 Fase 4 — Compute:** `MockHive` *(cómputo efímero bajo demanda)*
+6. **🧪 Fase 5 — Testing & Calidad:** `Maskito` ➡️ `Termes` ➡️ `Lepisma` ➡️ `Waisp` *(validación de lo existente)*
+7. **🧹 Fase 6 — Gobernanza & Control:** `Chiton` ➡️ `Formica Legionarys` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa)*
+8. **🧠 Fase 7 — Inteligencia Artificial:** `Mantx` *(capa avanzada sobre infra consolidada)*
+9. **🎛️ Fase 8 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
 
 ---
 
