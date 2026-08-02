@@ -136,6 +136,22 @@ Permite enmascarar cualquier aplicación web bajo dominios estéticos comunitari
 
 ---
 
+## 🕷️ Termes: Digestor DOM, Anti-Bot Stealth & Sintetizador de APIs Inversas
+
+<p align="center">
+  <img src="assets/logo_termes.png" alt="Termes Engine Logo" width="140" onerror="this.src='https://raw.githubusercontent.com/amglogicalis/termes-repo-public/main/assets/logo_termes.png'" />
+</p>
+
+<p align="center">
+  <strong>Termes</strong> es la infraestructura de digestión web autónoma, automatización headless, camuflaje sigiloso Mud Tunnel y sintetizador de APIs Inversas a coste $0 del ecosistema Terra.
+</p>
+
+Permite transformar cualquier sitio web del mundo sin API pública, tienda e-commerce o portal legacy en una **API Sintética REST instantánea a 0ms en CDN** y disparador de **Webhooks Invertidos (Site-to-Webhook)** con sigilo Anti-Bot y trazabilidad 100% segura. Incluye consola web interactiva 24/7 (desplegada online en vivo), paquete CLI global (`npm install -g terra-termes`) y SDK TypeScript nativo.
+
+👉 **Explora el repositorio oficial de Termes:** [Termes Public Repository](https://github.com/amglogicalis/termes-repo-public)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
@@ -148,8 +164,8 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🏛️ **Combase** | *Base de Datos Efímera* | 🟢 **Completado** | Motor relacional/documental transaccional, Zero-Copy Branching y Time-Travel a coste $0. |
 | 🔐 **Lumina** | *IAM & Identity* | 🟢 **Completado** | Proveedor de identidad, Sanctuaries multi-entorno, políticas granulares AWS IAM, JWT/JWKS & Magic Links. |
 | 🎭 **Ballom** | *DNS & Routing* | 🟢 **Completado** | Capa de enmascaramiento DNS, Feromask HA shield, API Gateway $0, Larvae short links y ScentKeys IAM. |
-| 🕷️ **Termes** | *Scraping & APIs* | 🟡 **En Desarrollo (Próxima)** | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
-| 🛡️ **Synchlor** | *Gestión de Secretos* | ⚪ *Planificado* | Camuflaje de credenciales y gestión de secretos efímeros. |
+| 🕷️ **Termes** | *Scraping & APIs* | 🟢 **Completado** | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
+| 🛡️ **Synchlor** | *Gestión de Secretos* | 🟡 **En Desarrollo (Próxima)** | Camuflaje de credenciales y gestión de secretos efímeros. |
 | ⏰ **Syncada** | *Orquestación & Crons* | ⚪ *Planificado* | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
 | 🐜 **Formica** | *Event Mesh & Purgado* | ⚪ *Planificado* | Bus de eventos (Pheromones), K/V store (Chambers), telemetría (Foragers) y purgado universal efímero (Legionarys). |
 | 🦗 **Grillout** | *Colas & Mensajería* | ⚪ *Planificado* | Motor de colas asíncronas, mensajería y notificaciones efímeras. |
@@ -172,7 +188,7 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 
 1. **🧱 Fase 1 — Fundamentos:** `Webbl` ➡️ `Combase` *(almacenamiento, hosting y base de datos)*
 2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ➡️ `Ballom` *(auth, identidad, enrutamiento y proxy perimetral)*
-3. **🕷️ Fase 3 — Extracción & Datos:** `Termes` *(scraping inteligente, headless browser y sintetizador de APIs)*
+3. **🕷️ Fase 3 — Extracción & Datos:** `Termes` ✅ *(completado)* ➡️ `Synchlor` 🚧 *(en desarrollo)* *(scraping inteligente, sintetizador de APIs y secretos efímeros)*
 4. **🔗 Fase 4 — Comunicación & Orquestación:** `Syncada` ➡️ `Formica` ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
 5. **🐝 Fase 5 — Compute:** `MockHive` *(cómputo efímero bajo demanda)*
 6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ➡️ `Lepisma` ➡️ `Waisp` *(validación de lo existente)*
