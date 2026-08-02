@@ -120,6 +120,22 @@ Permite aislar completamente entornos mediante **Sanctuaries** (`production`, `s
 
 ---
 
+## 🎭 Ballom: Motor de Enmascaramiento DNS, API Gateway & Routing
+
+<p align="center">
+  <img src="assets/logo_ballom.png" alt="Ballom Engine Logo" width="140" onerror="this.src='https://raw.githubusercontent.com/amglogicalis/ballom-repo-public/main/assets/logo_ballom.png'" />
+</p>
+
+<p align="center">
+  <strong>Ballom</strong> es la infraestructura de enmascaramiento de URLs (Feromask), API Gateway Serverless (ChitinGate), acortador de enlaces con prefijos flexibles (Larvae), enrutador inteligente (PheroPaths) y gestión de API Keys criptográficas con ámbitos de permisos personalizados (ScentKeys) del ecosistema Terra a coste $0.
+</p>
+
+Permite enmascarar cualquier aplicación web bajo dominios estéticos comunitarios gratuitos (`.is-a.dev`, `.is-an.app`, `.1337.cx`, `.js.org`, `.sub.id`, `.eu.org`, `.github.io`) o dominios propios, implementar escudos de alta disponibilidad (**BackSheds HA Failover**), publicar endpoints de datos JSON o disparadores de **GitHub Actions** con esquemas de entrada personalizados, enrutar peticiones mediante expresiones regulares y webhooks, y gestionar claves API de forma 100% segura con purga masiva de claves inactivas. Incluye consola web interactiva 24/7 (desplegada online en vivo), SDK para Node.js/TypeScript y CLI global.
+
+👉 **Explora el repositorio oficial de Ballom:** [Ballom Public Repository](https://github.com/amglogicalis/ballom-repo-public)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
@@ -131,7 +147,8 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🌐 **Webbl** | *Hosting & CDN* | 🟢 **Completado** | Alojamiento frontend estático instantáneo con distribución perimetral (Cocoons, Morphs & Chrysalis). |
 | 🏛️ **Combase** | *Base de Datos Efímera* | 🟢 **Completado** | Motor relacional/documental transaccional, Zero-Copy Branching y Time-Travel a coste $0. |
 | 🔐 **Lumina** | *IAM & Identity* | 🟢 **Completado** | Proveedor de identidad, Sanctuaries multi-entorno, políticas granulares AWS IAM, JWT/JWKS & Magic Links. |
-| 🎭 **Ballom** | *DNS & Routing* | 🟡 **En Desarrollo (Próxima)** | Capa de enmascaramiento DNS, routing inteligente, alias dinámicos y proxy perimetral fantasma. |
+| 🎭 **Ballom** | *DNS & Routing* | 🟢 **Completado** | Capa de enmascaramiento DNS, Feromask HA shield, API Gateway $0, Larvae short links y ScentKeys IAM. |
+| 🕷️ **Termes** | *Scraping & APIs* | 🟡 **En Desarrollo (Próxima)** | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
 | 🛡️ **Synchlor** | *Gestión de Secretos* | ⚪ *Planificado* | Camuflaje de credenciales y gestión de secretos efímeros. |
 | ⏰ **Syncada** | *Orquestación & Crons* | ⚪ *Planificado* | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
 | 🐜 **Formica** | *Event Mesh & Purgado* | ⚪ *Planificado* | Bus de eventos (Pheromones), K/V store (Chambers), telemetría (Foragers) y purgado universal efímero (Legionarys). |
@@ -139,7 +156,6 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
 | 🐝 **MockHive** | *Compute & Serverless* | ⚪ *Planificado* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
 | 🦟 **Maskito** | *Testing & Data* | ⚪ *Planificado* | Motor de pruebas de estrés masivo y siembra sintética de datos. |
-| 🕷️ **Termes** | *Scraping & APIs* | ⚪ *Planificado* | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
 | 🦎 **Lepisma** | *Salud de Dependencias* | ⚪ *Planificado* | Motor de salud estructural, mapeo de dependencias y anti-decadencia. |
 | 🛡️ **Waisp** | *Red Teaming* | ⚪ *Planificado* | Orquestador de seguridad ofensiva y pentesting dinámico (DAST) automatizado. |
 | 🦗 **Chiton** | *Gobernanza & FinOps* | ⚪ *Planificado* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
@@ -155,14 +171,14 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 El criterio de ordenación es sencillo: **no se implementa una herramienta hasta que exista algo que justifique su existencia**. Una herramienta de observabilidad (`Libella`) no tiene sentido antes de que haya apps que observar. Un motor de purgado (`Formica Legionarys`) no tiene sentido antes de que exista infraestructura que purgar.
 
 1. **🧱 Fase 1 — Fundamentos:** `Webbl` ➡️ `Combase` *(almacenamiento, hosting y base de datos)*
-2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ➡️ `Synchlor` *(auth y gestión de secretos)*
-3. **🌐 Fase 4 — Red & Enrutamiento (Adelantada por sinergia):** `Ballom` *(routing, alias dinámicos y proxy perimetral)*
-4. **🔗 Fase 3 — Comunicación & Orquestación:** `Syncada` ➡️ `Formica` ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
-5. **🐝 Fase 4 — Compute:** `MockHive` *(cómputo efímero bajo demanda)*
-6. **🧪 Fase 5 — Testing & Calidad:** `Maskito` ➡️ `Termes` ➡️ `Lepisma` ➡️ `Waisp` *(validación de lo existente)*
-7. **🧹 Fase 6 — Gobernanza & Control:** `Chiton` ➡️ `Formica Legionarys` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa)*
-8. **🧠 Fase 7 — Inteligencia Artificial:** `Mantx` *(capa avanzada sobre infra consolidada)*
-9. **🎛️ Fase 8 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
+2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ➡️ `Ballom` *(auth, identidad, enrutamiento y proxy perimetral)*
+3. **🕷️ Fase 3 — Extracción & Datos:** `Termes` *(scraping inteligente, headless browser y sintetizador de APIs)*
+4. **🔗 Fase 4 — Comunicación & Orquestación:** `Syncada` ➡️ `Formica` ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
+5. **🐝 Fase 5 — Compute:** `MockHive` *(cómputo efímero bajo demanda)*
+6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ➡️ `Lepisma` ➡️ `Waisp` *(validación de lo existente)*
+7. **🧹 Fase 7 — Gobernanza & Control:** `Chiton` ➡️ `Formica Legionarys` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa)*
+8. **🧠 Fase 8 — Inteligencia Artificial:** `Mantx` *(capa avanzada sobre infra consolidada)*
+9. **🎛️ Fase 9 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
 
 ---
 
