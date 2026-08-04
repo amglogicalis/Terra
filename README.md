@@ -164,7 +164,7 @@ Permite transformar cualquier sitio web del mundo sin API pública, tienda e-com
 
 Permite convertir tokens crudos y de alto riesgo (`ghp_...`, `sk-proj-...`, `AKIA...`) en **Pétalos Semánticos** legibles (`sinchlor:alias` y `[sinchlor:alias]`) resueltos **exclusivamente en memoria RAM** durante la ejecución de los procesos. Incorpora **Sinchlor Parades** (equipos y políticas RBAC), **PetalTraps** (honeytokens señuelo con alertas multicanal a Discord/Telegram/GitHub) y **Néctar Efímero** (credenciales temporales con TTL y autodestrucción tras 1-solo uso). Incluye consola web interactiva 24/7 (desplegada online en vivo), paquete CLI global (`npm install -g terra-sinchlor`) y SDK TypeScript nativo.
 
-👉 **Explora el repositorio oficial de Sinchlor:** [Sinchlor Public Repository](https://github.com/amglogicalis/sinchlor-repo-public) | 🌐 **Consola Web Online:** [Sinchlor Studio](https://amglogicalis.github.io/sinchlor-repo-public/)
+👉 **Explora el repositorio oficial de Sinchlor:** [Sinchlor Public Repository](https://github.com/amglogicalis/sinchlor-repo-public)
 
 ---
 
