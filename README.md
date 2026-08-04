@@ -152,6 +152,22 @@ Permite transformar cualquier sitio web del mundo sin API pública, tienda e-com
 
 ---
 
+## 🛡️ Sinchlor: Camuflaje de Credenciales, DNS de Secretos & Secretos Efímeros
+
+<p align="center">
+  <img src="assets/logo_sinchlor.png" alt="Sinchlor Engine Logo" width="140" onerror="this.src='https://raw.githubusercontent.com/amglogicalis/sinchlor-repo-public/main/assets/logo_sinchlor.png'" />
+</p>
+
+<p align="center">
+  <strong>Sinchlor</strong> es la infraestructura de camuflaje de credenciales, enmascaramiento de secretos, DNS de credenciales y secretos efímeros a coste $0 del ecosistema Terra.
+</p>
+
+Permite convertir tokens crudos y de alto riesgo (`ghp_...`, `sk-proj-...`, `AKIA...`) en **Pétalos Semánticos** legibles (`sinchlor:alias` y `[sinchlor:alias]`) resueltos **exclusivamente en memoria RAM** durante la ejecución de los procesos. Incorpora **Sinchlor Parades** (equipos y políticas RBAC), **PetalTraps** (honeytokens señuelo con alertas multicanal a Discord/Telegram/GitHub) y **Néctar Efímero** (credenciales temporales con TTL y autodestrucción tras 1-solo uso). Incluye consola web interactiva 24/7 (desplegada online en vivo), paquete CLI global (`npm install -g terra-sinchlor`) y SDK TypeScript nativo.
+
+👉 **Explora el repositorio oficial de Sinchlor:** [Sinchlor Public Repository](https://github.com/amglogicalis/sinchlor-repo-public) | 🌐 **Consola Web Online:** [Sinchlor Studio](https://amglogicalis.github.io/sinchlor-repo-public/)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
@@ -165,8 +181,8 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🔐 **Lumina** | *IAM & Identity* | 🟢 **Completado** | Proveedor de identidad, Sanctuaries multi-entorno, políticas granulares AWS IAM, JWT/JWKS & Magic Links. |
 | 🎭 **Ballom** | *DNS & Routing* | 🟢 **Completado** | Capa de enmascaramiento DNS, Feromask HA shield, API Gateway $0, Larvae short links y ScentKeys IAM. |
 | 🕷️ **Termes** | *Scraping & APIs* | 🟢 **Completado** | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
-| 🛡️ **Synchlor** | *Gestión de Secretos* | 🟡 **En Desarrollo (Próxima)** | Camuflaje de credenciales y gestión de secretos efímeros. |
-| ⏰ **Syncada** | *Orquestación & Crons* | ⚪ *Planificado* | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
+| 🛡️ **Sinchlor** | *Gestión de Secretos* | 🟢 **Completado** | Camuflaje de credenciales, DNS de secretos y gestión de secretos efímeros. |
+| ⏰ **Syncada** | *Orquestación & Crons* | 🟡 **En Desarrollo (Próxima)** | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
 | 🐜 **Formica** | *Event Mesh & Purgado* | ⚪ *Planificado* | Bus de eventos (Pheromones), K/V store (Chambers), telemetría (Foragers) y purgado universal efímero (Legionarys). |
 | 🦗 **Grillout** | *Colas & Mensajería* | ⚪ *Planificado* | Motor de colas asíncronas, mensajería y notificaciones efímeras. |
 | ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
@@ -186,10 +202,10 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 
 El criterio de ordenación es sencillo: **no se implementa una herramienta hasta que exista algo que justifique su existencia**. Una herramienta de observabilidad (`Libella`) no tiene sentido antes de que haya apps que observar. Un motor de purgado (`Formica Legionarys`) no tiene sentido antes de que exista infraestructura que purgar.
 
-1. **🧱 Fase 1 — Fundamentos:** `Webbl` ➡️ `Combase` *(almacenamiento, hosting y base de datos)*
-2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ➡️ `Ballom` *(auth, identidad, enrutamiento y proxy perimetral)*
-3. **🕷️ Fase 3 — Extracción & Datos:** `Termes` ✅ *(completado)* ➡️ `Synchlor` 🚧 *(en desarrollo)* *(scraping inteligente, sintetizador de APIs y secretos efímeros)*
-4. **🔗 Fase 4 — Comunicación & Orquestación:** `Syncada` ➡️ `Formica` ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
+1. **🧱 Fase 1 — Fundamentos:** `Webbl` ✅ ➡️ `Combase` ✅ *(almacenamiento, hosting y base de datos)*
+2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ✅ ➡️ `Ballom` ✅ *(auth, identidad, enrutamiento y proxy perimetral)*
+3. **🛡️ Fase 3 — Extracción, Datos & Secretos:** `Termes` ✅ ➡️ `Sinchlor` ✅ *(scraping inteligente, sintetizador de APIs y camuflaje de secretos)*
+4. **🔗 Fase 4 — Comunicación & Orquestación:** `Syncada` 🚧 *(en desarrollo)* ➡️ `Formica` ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
 5. **🐝 Fase 5 — Compute:** `MockHive` *(cómputo efímero bajo demanda)*
 6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ➡️ `Lepisma` ➡️ `Waisp` *(validación de lo existente)*
 7. **🧹 Fase 7 — Gobernanza & Control:** `Chiton` ➡️ `Formica Legionarys` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa)*
