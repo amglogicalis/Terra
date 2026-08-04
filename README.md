@@ -164,7 +164,23 @@ Permite transformar cualquier sitio web del mundo sin API pública, tienda e-com
 
 Permite convertir tokens crudos y de alto riesgo (`ghp_...`, `sk-proj-...`, `AKIA...`) en **Pétalos Semánticos** legibles (`sinchlor:alias` y `[sinchlor:alias]`) resueltos **exclusivamente en memoria RAM** durante la ejecución de los procesos. Incorpora **Sinchlor Parades** (equipos y políticas RBAC), **PetalTraps** (honeytokens señuelo con alertas multicanal a Discord/Telegram/GitHub) y **Néctar Efímero** (credenciales temporales con TTL y autodestrucción tras 1-solo uso). Incluye consola web interactiva 24/7 (desplegada online en vivo), paquete CLI global (`npm install -g terra-sinchlor`) y SDK TypeScript nativo.
 
-👉 **Explora el repositorio oficial de Sinchlor:** [Sinchlor Public Repository](https://github.com/amglogicalis/sinchlor-repo-public)
+👉 **Explora el repositorio oficial de Sinchlor:** [Sinchlor Public Repository](https://github.com/amglogicalis/sinchlor-repo-public) | 🌐 **Consola Web Online:** [Sinchlor Studio](https://amglogicalis.github.io/sinchlor-repo-public/)
+
+---
+
+## 🐜 Formica: Event Mesh, K/V Cache, Telemetría, WAF Guard & Purga Universal
+
+<p align="center">
+  <img src="assets/logo_formica.png" alt="Formica Engine Logo" width="140" onerror="this.src='https://raw.githubusercontent.com/amglogicalis/formica-repo-public/main/assets/logo_formica.png'" />
+</p>
+
+<p align="center">
+  <strong>Formica</strong> es la plataforma distribuida de conectividad, bus de eventos Pub/Sub (Pheromones), almacenamiento K/V (Chambers), telemetría (Foragers), WAF Guard (Soldiers) y motor modular de purga universal efímera (Legionarys) a coste $0 del ecosistema Terra.
+</p>
+
+Permite conectar microservicios y herramientas mediante eventos asíncronos por tópicos, almacenar caché en Git/RAM, registrar telemetría con Correlation IDs, filtrar tráfico malicioso y ejecutar **purgados efímeros simulados (*Dry-Run*) y reales** de recursos caducados en **Sinchlor**, **Rolla**, **Ballom**, **Lumina**, **Termes**, **Combase** o adaptadores customizados. Incluye consola web interactiva 24/7 (desplegada online en vivo), paquete CLI global (`npm install -g terra-formica`) y SDK TypeScript nativo.
+
+👉 **Explora el repositorio oficial de Formica:** [Formica Public Repository](https://github.com/amglogicalis/formica-repo-public) | 🌐 **Consola Web Online:** [Formica Queen Studio](https://amglogicalis.github.io/formica-repo-public/)
 
 ---
 
@@ -182,6 +198,7 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🎭 **Ballom** | *DNS & Routing* | 🟢 **Completado** | Capa de enmascaramiento DNS, Feromask HA shield, API Gateway $0, Larvae short links y ScentKeys IAM. |
 | 🕷️ **Termes** | *Scraping & APIs* | 🟢 **Completado** | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
 | 🛡️ **Sinchlor** | *Gestión de Secretos* | 🟢 **Completado** | Camuflaje de credenciales, DNS de secretos y gestión de secretos efímeros. |
+| 🐜 **Formica** | *Event Mesh & Purga* | 🟢 **Completado** | Bus Pub/Sub (Pheromones), K/V store (Chambers), telemetría (Foragers), WAF (Soldiers) y purgado universal (Legionarys). |
 | ⏰ **Syncada** | *Orquestación & Crons* | 🟡 **En Desarrollo (Próxima)** | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
 | 🐜 **Formica** | *Event Mesh & Purgado* | ⚪ *Planificado* | Bus de eventos (Pheromones), K/V store (Chambers), telemetría (Foragers) y purgado universal efímero (Legionarys). |
 | 🦗 **Grillout** | *Colas & Mensajería* | ⚪ *Planificado* | Motor de colas asíncronas, mensajería y notificaciones efímeras. |
