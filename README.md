@@ -180,7 +180,7 @@ Permite convertir tokens crudos y de alto riesgo (`ghp_...`, `sk-proj-...`, `AKI
 
 Permite conectar microservicios, apps Terra y servicios externos (AWS Lambda, Azure Functions, Python, Discord) mediante eventos asíncronos por tópicos, almacenar caché K/V con TTL en Git, registrar telemetría centralizada con Correlation IDs y source-grouping, proteger endpoints con reglas WAF de prioridad configurable (bloqueo por IP, cabecera, path o rate-limit), y ejecutar **purgados efímeros simulados (*Dry-Run*) y reales** de recursos caducados en **Sinchlor**, **Rolla**, **Ballom**, **Lumina**, **Termes**, **Combase** o adaptadores custom. El servidor **Anthill** procesa eventos en background (GitHub Actions) con cold-start ~20-30s y auto-sleep tras 10 min de inactividad — coste cero en repos públicos. Incluye consola web interactiva 24/7 **Formica Queen Studio** (desplegada online en vivo), paquete CLI global v2.0 (`npm install -g terra-formica`) y SDK TypeScript nativo con 100% de paridad funcional.
 
-👉 **Explora el repositorio oficial de Formica:** [Formica Public Repository](https://github.com/amglogicalis/formica-repo-public) | 🌐 **Consola Web Online:** [Formica Queen Studio](https://amglogicalis.github.io/Formica/) | 📦 **npm:** [`terra-formica`](https://www.npmjs.com/package/terra-formica)
+👉 **Explora el repositorio oficial de Formica:** [Formica Public Repository](https://github.com/amglogicalis/formica-repo-public)
 
 ---
 
