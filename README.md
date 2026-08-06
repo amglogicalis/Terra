@@ -171,16 +171,16 @@ Permite convertir tokens crudos y de alto riesgo (`ghp_...`, `sk-proj-...`, `AKI
 ## 🐜 Formica: Event Mesh, K/V Cache, Telemetría, WAF Guard & Purga Universal
 
 <p align="center">
-  <img src="assets/logo_formica.png" alt="Formica Engine Logo" width="140" onerror="this.src='https://raw.githubusercontent.com/amglogicalis/formica-repo-public/main/assets/logo_formica.png'" />
+  <img src="assets/logo_formica_v2.png" alt="Formica Engine Logo" width="140" onerror="this.src='https://raw.githubusercontent.com/amglogicalis/formica-repo-public/main/assets/logo_formica_v2.png'" />
 </p>
 
 <p align="center">
-  <strong>Formica</strong> es la plataforma distribuida de conectividad, bus de eventos Pub/Sub (Pheromones), almacenamiento K/V (Chambers), telemetría (Foragers), WAF Guard (Soldiers) y motor modular de purga universal efímera (Legionarys) a coste $0 del ecosistema Terra.
+  <strong>Formica</strong> es la plataforma de infraestructura distribuida del ecosistema Terra a coste $0: bus de eventos Pub/Sub (<strong>Pheromones</strong>), caché K/V distribuido (<strong>Chambers</strong>), telemetría estructurada (<strong>Foragers</strong>), WAF Gateway prioritario (<strong>Soldiers</strong>), motor modular de purga universal (<strong>Legionarys</strong>) y hub central de conectividad de providers (<strong>Providers Hub</strong>). Procesamiento asíncrono en la nube mediante el servidor auto-hospedado en GitHub Actions (<strong>Anthill</strong>).
 </p>
 
-Permite conectar microservicios y herramientas mediante eventos asíncronos por tópicos, almacenar caché en Git/RAM, registrar telemetría con Correlation IDs, filtrar tráfico malicioso y ejecutar **purgados efímeros simulados (*Dry-Run*) y reales** de recursos caducados en **Sinchlor**, **Rolla**, **Ballom**, **Lumina**, **Termes**, **Combase** o adaptadores customizados. Incluye consola web interactiva 24/7 (desplegada online en vivo), paquete CLI global (`npm install -g terra-formica`) y SDK TypeScript nativo.
+Permite conectar microservicios, apps Terra y servicios externos (AWS Lambda, Azure Functions, Python, Discord) mediante eventos asíncronos por tópicos, almacenar caché K/V con TTL en Git, registrar telemetría centralizada con Correlation IDs y source-grouping, proteger endpoints con reglas WAF de prioridad configurable (bloqueo por IP, cabecera, path o rate-limit), y ejecutar **purgados efímeros simulados (*Dry-Run*) y reales** de recursos caducados en **Sinchlor**, **Rolla**, **Ballom**, **Lumina**, **Termes**, **Combase** o adaptadores custom. El servidor **Anthill** procesa eventos en background (GitHub Actions) con cold-start ~20-30s y auto-sleep tras 10 min de inactividad — coste cero en repos públicos. Incluye consola web interactiva 24/7 **Formica Queen Studio** (desplegada online en vivo), paquete CLI global v2.0 (`npm install -g terra-formica`) y SDK TypeScript nativo con 100% de paridad funcional.
 
-👉 **Explora el repositorio oficial de Formica:** [Formica Public Repository](https://github.com/amglogicalis/formica-repo-public) | 🌐 **Consola Web Online:** [Formica Queen Studio](https://amglogicalis.github.io/formica-repo-public/)
+👉 **Explora el repositorio oficial de Formica:** [Formica Public Repository](https://github.com/amglogicalis/formica-repo-public) | 🌐 **Consola Web Online:** [Formica Queen Studio](https://amglogicalis.github.io/Formica/) | 📦 **npm:** [`terra-formica`](https://www.npmjs.com/package/terra-formica)
 
 ---
 
@@ -198,9 +198,8 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🎭 **Ballom** | *DNS & Routing* | 🟢 **Completado** | Capa de enmascaramiento DNS, Feromask HA shield, API Gateway $0, Larvae short links y ScentKeys IAM. |
 | 🕷️ **Termes** | *Scraping & APIs* | 🟢 **Completado** | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
 | 🛡️ **Sinchlor** | *Gestión de Secretos* | 🟢 **Completado** | Camuflaje de credenciales, DNS de secretos y gestión de secretos efímeros. |
-| 🐜 **Formica** | *Event Mesh & Purga* | 🟢 **Completado** | Bus Pub/Sub (Pheromones), K/V store (Chambers), telemetría (Foragers), WAF (Soldiers) y purgado universal (Legionarys). |
-| ⏰ **Syncada** | *Orquestación & Crons* | 🟡 **En Desarrollo (Próxima)** | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos. |
-| 🐜 **Formica** | *Event Mesh & Purgado* | ⚪ *Planificado* | Bus de eventos (Pheromones), K/V store (Chambers), telemetría (Foragers) y purgado universal efímero (Legionarys). |
+| 🐜 **Formica** | *Event Mesh & Purga* | 🟢 **Completado** | Bus Pub/Sub (Pheromones), K/V Chambers, telemetría Foragers, WAF Soldiers, purga Legionarys, Anthill & CLI v2. |
+| ⏰ **Syncada** | *Orquestación & Crons* | 🟡 **Próxima — En Desarrollo** | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos cruzados. |
 | 🦗 **Grillout** | *Colas & Mensajería* | ⚪ *Planificado* | Motor de colas asíncronas, mensajería y notificaciones efímeras. |
 | ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
 | 🐝 **MockHive** | *Compute & Serverless* | ⚪ *Planificado* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
@@ -222,10 +221,10 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 1. **🧱 Fase 1 — Fundamentos:** `Webbl` ✅ ➡️ `Combase` ✅ *(almacenamiento, hosting y base de datos)*
 2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ✅ ➡️ `Ballom` ✅ *(auth, identidad, enrutamiento y proxy perimetral)*
 3. **🛡️ Fase 3 — Extracción, Datos & Secretos:** `Termes` ✅ ➡️ `Sinchlor` ✅ *(scraping inteligente, sintetizador de APIs y camuflaje de secretos)*
-4. **🔗 Fase 4 — Comunicación & Orquestación:** `Syncada` 🚧 *(en desarrollo)* ➡️ `Formica` ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
+4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Syncada` 🚧 *(en desarrollo — próxima)* ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
 5. **🐝 Fase 5 — Compute:** `MockHive` *(cómputo efímero bajo demanda)*
 6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ➡️ `Lepisma` ➡️ `Waisp` *(validación de lo existente)*
-7. **🧹 Fase 7 — Gobernanza & Control:** `Chiton` ➡️ `Formica Legionarys` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa)*
+7. **🧹 Fase 7 — Gobernanza & Control:** `Chiton` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa — Formica Legionarys ya disponible ✅)*
 8. **🧠 Fase 8 — Inteligencia Artificial:** `Mantx` *(capa avanzada sobre infra consolidada)*
 9. **🎛️ Fase 9 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
 

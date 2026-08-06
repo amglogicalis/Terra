@@ -18,9 +18,9 @@
 
 ## 📊 2. Estado Global de las Aplicaciones del Ecosistema
 
-Actualmente el ecosistema Terra cuenta con **8 Aplicaciones Creadas, Verificadas y 100% Funcionales**, mientras que **13 Titanes/Aplicaciones** están conceptualizadas con su especificación técnica lista para su implementación por fases (haciendo un total de **21 Titanes**).
+Actualmente el ecosistema Terra cuenta con **9 Aplicaciones Creadas, Verificadas y 100% Funcionales**, mientras que **12 Titanes/Aplicaciones** están conceptualizadas con su especificación técnica lista para su implementación por fases (haciendo un total de **21 Titanes**).
 
-### 🟢 Aplicaciones Creadas, Verificadas y Publicadas en NPM (8):
+### 🟢 Aplicaciones Creadas, Verificadas y Publicadas en NPM (9):
 1. **🐝 HIVEN** (`c:\mis-proyectos\Terra\hiven`): Agente cognitivo autónomo multi-agente para ingeniería de software.
 2. **🗄️ ROLLA** (`c:\mis-proyectos\Terra\rolla`): Motor de almacenamiento de objetos inmutable (estilo S3). Publicado en NPM como `terra-rolla@1.2.2`.
 3. **🌐 WEBBL** (`c:\mis-proyectos\Terra\webbl`): Motor de hosting frontend & CDN global sobre GitHub Pages (Cocoons, Morphs & Chrysalis). Publicado en NPM como `terra-webbl@1.1.0`.
@@ -29,14 +29,14 @@ Actualmente el ecosistema Terra cuenta con **8 Aplicaciones Creadas, Verificadas
 6. **🎭 BALLOM** (`c:\mis-proyectos\Terra\ballom`): Motor de Enmascaramiento DNS, Feromask HA shield, API Gateway $0, Larvae short links y ScentKeys IAM. Publicado en NPM como `terra-ballom@1.0.0`. Repo público: [amglogicalis/ballom-repo-public](https://github.com/amglogicalis/ballom-repo-public). Consola Web: [amglogicalis.github.io/ballom-repo-public/](https://amglogicalis.github.io/ballom-repo-public/).
 7. **🕷️ TERMES** (`c:\mis-proyectos\Terra\termes`): Digestor DOM, Anti-Bot Stealth & Sintetizador de APIs Inversas. Publicado en NPM como `terra-termes@1.1.1`. Repo público: [amglogicalis/termes-repo-public](https://github.com/amglogicalis/termes-repo-public). Consola Web: [amglogicalis.github.io/termes-repo-public/](https://amglogicalis.github.io/termes-repo-public/).
 8. **🛡️ SINCHLOR** (`c:\mis-proyectos\Terra\sinchlor`): Motor de Camuflaje de Credenciales, DNS de Secretos & Secretos Efímeros. Publicado en NPM como `terra-sinchlor@1.0.0`. Repo público: [amglogicalis/sinchlor-repo-public](https://github.com/amglogicalis/sinchlor-repo-public). Consola Web: [amglogicalis.github.io/sinchlor-repo-public/](https://amglogicalis.github.io/sinchlor-repo-public/).
+9. **🐜 FORMICA** (`c:\mis-proyectos\Terra\formica`): The Formic Mesh — Event Mesh & Bus Pub/Sub (Pheromones), K/V Store distribuido (Chambers), Telemetría (Foragers), WAF Gateway prioritario (Soldiers), Motor de Purga Universal (Legionarys), Hub de Providers & Anthill (procesador asíncrono en GitHub Actions). Publicado como `terra-formica@2.0.0`. Repo público: [amglogicalis/Formica](https://github.com/amglogicalis/Formica). Consola Web Queen Studio: [amglogicalis.github.io/Formica/](https://amglogicalis.github.io/Formica/).
 
-### 🟡 Próxima Aplicación a Construir (Fase 3: Orquestación & Cron Maestro):
-👉 **⏰ SYNCADA** (`c:\mis-proyectos\Terra\syncada`): Orquestador de Tareas Programadas & Colas (Cron Maestro).
+### 🟡 Próxima Aplicación a Construir (Fase 4: Orquestación & Cron Maestro):
+👉 **⏰ SYNCADA** (`c:\mis-proyectos\Terra\syncada`): Orquestador de Tareas Programadas & Colas (Cron Maestro) — **objetivo: llegar a esta fase con Formica completado ✅**.
 
 ### 📋 Resto de Aplicaciones Pendientes:
-1. **⏰ SYNCADA**: Orquestador de Tareas Programadas & Colas (Cron Maestro).
-2. **🐜 FORMICA**: Event Mesh (Pheromones), K/V Store (Chambers), Telemetría (Foragers) & Purgado Universal Efímero (Legionarys).
-3. **🦗 GRILLOUT**: Motor de Colas Asíncronas, Mensajería & Notificaciones Efímeras.
+1. **⏰ SYNCADA**: Orquestador de Tareas Programadas & Colas (Cron Maestro) — **PRÓXIMA**.
+2. **🦗 GRILLOUT**: Motor de Colas Asíncronas, Mensajería & Notificaciones Efímeras.
 4. **⚡ PHERI**: Event Streaming en Tiempo Real de Alta Frecuencia.
 5. **🐝 MOCKHIVE / MOCKHIVEN**: Infraestructura Efímera (PollenPods & Waggles).
 11. **🦟 MASKITO**: Motor de Stress Testing & Generación Sintética de Datos.
@@ -66,8 +66,8 @@ flowchart TD
     Fase2 --> SYNCHLOR["🛡️ SYNCHLOR\nGestión de Secretos. Todas las apps necesitan credenciales seguras."]
 
     Fase3["🔗 Fase 3: Comunicación y Orquestación\n(El sistema nervioso del enjambre)"]
-    Fase3 --> SYNCADA["⏰ SYNCADA\nCron maestro. Disparador temporal para todos los titanes."]
-    Fase3 --> FORMICA["🐜 FORMICA\nEvent Mesh, K/V & Bus de eventos entre microservicios."]
+    Fase3 --> FORMICA["🐜 FORMICA ✅\nEvent Mesh, K/V Chambers, WAF, Purga Legionarys & Anthill."]
+    Fase3 --> SYNCADA["⏰ SYNCADA 🚧\nCron maestro. Disparador temporal para todos los titanes. PRÓXIMA."]
     Fase3 --> GRILLOUT["🦗 GRILLOUT\nColas asíncronas. Notificaciones y mensajería efímera."]
     Fase3 --> PHERI["⚡ PHERI\nStreaming en tiempo real. Feeds de alta frecuencia."]
 
@@ -98,12 +98,12 @@ flowchart TD
 
 | Fase | Criterio | Titanes |
 |:---|:---|:---|
-| **1 - Fundamentos** | Sin almacenamiento, hosting y base de datos no existe nada más | WEBBL, COMBASE |
-| **2 - Identidad** | Sin autenticación y gestión de secretos, nada puede ser seguro | LUMINA, SYNCHLOR |
-| **3 - Comunicación** | Una vez hay apps y auth, necesitan comunicarse entre sí | SYNCADA, FORMICA, GRILLOUT, PHERI |
-| **4 - Red y Compute** | Una vez hay servicios, necesitan rutas y cómputo bajo demanda | BALLOM, MOCKHIVE |
-| **5 - Testing** | Solo se puede testear lo que ya existe | MASKITO, TERMES, LEPISMA, WAISP |
-| **6 - Gobierno** | Solo se puede observar, limpiar y controlar lo que ya se ha desplegado | CHITON, FORMICA (LEGIONARYS), DECREFLY, **LIBELLA** |
+| **1 - Fundamentos** | Sin almacenamiento, hosting y base de datos no existe nada más | WEBBL ✅, COMBASE ✅ |
+| **2 - Identidad** | Sin autenticación y gestión de secretos, nada puede ser seguro | LUMINA ✅, SINCHLOR ✅ |
+| **3 - Comunicación** | Una vez hay apps y auth, necesitan comunicarse entre sí | FORMICA ✅, SYNCADA 🚧 *(próxima)*, GRILLOUT, PHERI |
+| **4 - Red y Compute** | Una vez hay servicios, necesitan rutas y cómputo bajo demanda | BALLOM ✅, MOCKHIVE |
+| **5 - Testing** | Solo se puede testear lo que ya existe | MASKITO, TERMES ✅, LEPISMA, WAISP |
+| **6 - Gobierno** | Solo se puede observar, limpiar y controlar lo que ya se ha desplegado | CHITON, DECREFLY, **LIBELLA** *(Formica Legionarys ya cubre purga básica ✅)* |
 | **7 - IA** | Capa avanzada que requiere toda la infraestructura previa | MANTX |
 | **8 - Plataforma** | La consola y el hub solo tienen sentido cuando hay titanes que gestionar | TERRA CONSOLE & HUB |
 
@@ -156,12 +156,38 @@ flowchart TD
 
 ---
 
-### 6. 🐜 FORMICA — Event Mesh & Data Layer
-- **Estado**: 🟡 **Pendiente**
-- **Ubicación futura**: `c:\mis-proyectos\Terra\formica`
-- **¿Qué hace?**: Bus de eventos Pub/Sub, caché Key-Value y capa de datos intermedia para microservicios.
-- **¿Cómo funciona?**: Dividido en 5 módulos (Queen, Pheromones, Chambers, Foragers, Soldiers). *Chambers* actúa como almacén K/V usando JSONs en Git; *Pheromones* gestiona suscripciones de eventos entre aplicaciones.
-- **Para qué sirve**: Permitir que las apps de Terra se comuniquen de forma desacoplada y compartan estado de forma segura.
+### 6. 🐜 FORMICA — The Formic Mesh (Event Bus, K/V, WAF, Telemetría, Purga & Anthill)
+- **Estado**: 🟢 **Creada, Operativa & Publicada en NPM como `terra-formica@2.0.0`**
+- **Ubicación**: `c:\mis-proyectos\Terra\formica`
+- **Repo Público**: [github.com/amglogicalis/Formica](https://github.com/amglogicalis/Formica)
+- **Consola Web**: [amglogicalis.github.io/Formica/](https://amglogicalis.github.io/Formica/) — **Formica Queen Studio** (24/7 online)
+- **NPM**: `npm install -g terra-formica` / `npm install terra-formica`
+
+**¿Qué hace?** — Infraestructura distribuida de 7 módulos a coste $0:
+
+| Módulo | Nombre | Función |
+|--------|--------|---------|
+| 🧪 | **Pheromones** | Bus Pub/Sub de eventos por tópicos. Suscriptores con webhook delivery. |
+| 🕳️ | **Chambers** | K/V distribuido estilo Redis con TTL, namespacing y Chamber DBs. |
+| 🍃 | **Foragers** | Telemetría estructurada centralizada: niveles `info/warn/error/debug`, correlation IDs. |
+| 🛡️ | **Soldiers** | WAF Gateway por prioridad: bloqueo por IP, cabecera, path, rate-limit; acción `block/allow/custom_payload`. |
+| ⚔️ | **Legionarys** | Motor de purga universal con Adapters configurables: dry-run + execute sobre cualquier provider. |
+| 🔌 | **Providers Hub** | Registro central de servicios conectados (Terra apps + AWS, Azure, Discord, etc.). |
+| 🐜 | **Anthill** | Servidor de eventos auto-hospedado en GitHub Actions: recibe `repository_dispatch`, procesa cola, auto-sleep tras 10min idle. |
+
+**¿Cómo funciona?**
+- **Persistencia**: Estado completo (`subscriptions`, `chambers`, `logs`, `soldierRules`, `legionaryAdapters`, `connectedProviders`) guardado en `<usuario>/.formica-storage` como JSON versionado por la Git Contents API.
+- **Anthill**: Repositorio `formica-anthill` (público=$0 Actions ilimitados) con workflow `anthill.yml` que arranca al recibir `repository_dispatch { event_type: 'formica-ingest' }`. Procesa `queue.json`, dispara webhooks a suscriptores, actualiza `heartbeat.json` y entra en sleep-loop (poll cada 20s, idle timeout 10min).
+- **CLI v2.0** (`formica`): 100% de paridad funcional con la consola web. Comandos: `pub`, `sub`, `kv`, `log`, `waf`, `adapter`, `purge`, `providers`, `anthill`, `studio`, `status`.
+- **SDK TypeScript**: Clase `Formica` con métodos para todos los módulos. Integración Express WAF middleware vía `createExpressWaf()`. Auto-injector para apps Terra vía `TerraAutoInjector`.
+
+**Para qué sirve**:
+- Comunicación desacoplada entre todas las apps Terra y servicios externos.
+- Cache compartida K/V sin Redis, con TTL y múltiples namespaces.
+- Telemetría centralizada cross-app desde cualquier lenguaje vía HTTP.
+- WAF perimetral configurable para proteger cualquier endpoint Express.
+- Purga periódica programada de recursos caducados en toda la infraestructura Terra.
+- Integración nativa con AWS Lambda, Azure Functions, Python, Discord, Slack vía `repository_dispatch`.
 
 ---
 
