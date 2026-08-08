@@ -184,6 +184,22 @@ Permite conectar microservicios, apps Terra y servicios externos (AWS Lambda, Az
 
 ---
 
+## 🐝 WAISP: DAST, Proof-of-Exploit (PoE), AutoPotter Pipeline & Colony Mesh P2P
+
+<p align="center">
+  <img src="assets/logo_waisp.png" alt="WAISP Security Logo" width="140" />
+</p>
+
+<p align="center">
+  <strong>WAISP</strong> es la plataforma de pentesting automatizado, DAST (Dynamic Application Security Testing), Red Teaming, trampas señuelo Nectar (Poison Mirror Tarpits) e inmunidad P2P colectiva (WaispColony Mesh) con auto-curación autónoma (AutoPotter Pipeline + NestHiveSandbox) y verificación Proof-of-Exploit (PoE) a coste $0 del ecosistema Terra.
+</p>
+
+Permite auditar aplicaciones dinámicas con cero falsos positivos (<strong>Proof-of-Exploit Dual-Phase Engine</strong>), trazar hallazgos directamente a líneas de código fuente AST (ej. `src/api/auth.ts#L42`), ejecutar parches autónomos con pruebas efímeras aisladas en GitHub Actions (<strong>NestHiveSandbox</strong>), congelar bots maliciosos a 1 byte/segundo con forensia en tiempo real (<strong>Poison Mirror Tarpits</strong>) y compartir feromonas anónimas de amenaza (<strong>WaispColony Mesh</strong>) para inmunizar a toda la colonia. Incluye consola web interactiva 24/7 <strong>WaispNest Studio</strong> (desplegada online en vivo), paquete unificado CLI/SDK global (`npm install -g terra-waisp`) y biblioteca Node.js/TypeScript.
+
+👉 **Explora el repositorio oficial de Waisp:** [Waisp Public Repository](https://github.com/amglogicalis/waisp-repo-public)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
@@ -199,13 +215,13 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🕷️ **Termes** | *Scraping & APIs* | 🟢 **Completado** | Digestor de datos no estructurados, headless browser y generador de APIs sintéticas. |
 | 🛡️ **Sinchlor** | *Gestión de Secretos* | 🟢 **Completado** | Camuflaje de credenciales, DNS de secretos y gestión de secretos efímeros. |
 | 🐜 **Formica** | *Event Mesh & Purga* | 🟢 **Completado** | Bus Pub/Sub (Pheromones), K/V Chambers, telemetría Foragers, WAF Soldiers, purga Legionarys, Anthill & CLI v2. |
+| 🛡️ **Waisp** | *Red Teaming & DAST* | 🟢 **Completado** | Pentesting DAST, Proof-of-Exploit (PoE), AutoPotter Pipeline, Nectar Traps & WaispColony Mesh P2P. |
 | ⏰ **Syncada** | *Orquestación & Crons* | 🟡 **Próxima — En Desarrollo** | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos cruzados. |
 | 🦗 **Grillout** | *Colas & Mensajería* | ⚪ *Planificado* | Motor de colas asíncronas, mensajería y notificaciones efímeras. |
 | ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
 | 🐝 **MockHive** | *Compute & Serverless* | ⚪ *Planificado* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
 | 🦟 **Maskito** | *Testing & Data* | ⚪ *Planificado* | Motor de pruebas de estrés masivo y siembra sintética de datos. |
 | 🦎 **Lepisma** | *Salud de Dependencias* | ⚪ *Planificado* | Motor de salud estructural, mapeo de dependencias y anti-decadencia. |
-| 🛡️ **Waisp** | *Red Teaming* | ⚪ *Planificado* | Orquestador de seguridad ofensiva y pentesting dinámico (DAST) automatizado. |
 | 🦗 **Chiton** | *Gobernanza & FinOps* | ⚪ *Planificado* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
 | 🦋 **Decrefly** | *Control Financiero* | ⚪ *Planificado* | Motor de equilibrio activo, techo financiero y arquitectura de suma cero. |
 | 📊 **Libella** | *Observabilidad & Telemetría* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes efímero. |
@@ -221,9 +237,9 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 1. **🧱 Fase 1 — Fundamentos:** `Webbl` ✅ ➡️ `Combase` ✅ *(almacenamiento, hosting y base de datos)*
 2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ✅ ➡️ `Ballom` ✅ *(auth, identidad, enrutamiento y proxy perimetral)*
 3. **🛡️ Fase 3 — Extracción, Datos & Secretos:** `Termes` ✅ ➡️ `Sinchlor` ✅ *(scraping inteligente, sintetizador de APIs y camuflaje de secretos)*
-4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Syncada` 🚧 *(en desarrollo — próxima)* ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
+4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Waisp` ✅ ➡️ `Syncada` 🚧 *(en desarrollo — próxima)* ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
 5. **🐝 Fase 5 — Compute:** `MockHive` *(cómputo efímero bajo demanda)*
-6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ➡️ `Lepisma` ➡️ `Waisp` *(validación de lo existente)*
+6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ➡️ `Lepisma` *(validación de lo existente)*
 7. **🧹 Fase 7 — Gobernanza & Control:** `Chiton` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa — Formica Legionarys ya disponible ✅)*
 8. **🧠 Fase 8 — Inteligencia Artificial:** `Mantx` *(capa avanzada sobre infra consolidada)*
 9. **🎛️ Fase 9 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
