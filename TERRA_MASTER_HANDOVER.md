@@ -20,7 +20,7 @@
 
 Actualmente el ecosistema Terra cuenta con **9 Aplicaciones Creadas, Verificadas y 100% Funcionales**, mientras que **12 Titanes/Aplicaciones** están conceptualizadas con su especificación técnica lista para su implementación por fases (haciendo un total de **21 Titanes**).
 
-### 🟢 Aplicaciones Creadas, Verificadas y Publicadas en NPM (9):
+### 🟢 Aplicaciones Creadas, Verificadas y Publicadas en NPM (10):
 1. **🐝 HIVEN** (`c:\mis-proyectos\Terra\hiven`): Agente cognitivo autónomo multi-agente para ingeniería de software.
 2. **🗄️ ROLLA** (`c:\mis-proyectos\Terra\rolla`): Motor de almacenamiento de objetos inmutable (estilo S3). Publicado en NPM como `terra-rolla@1.2.2`.
 3. **🌐 WEBBL** (`c:\mis-proyectos\Terra\webbl`): Motor de hosting frontend & CDN global sobre GitHub Pages (Cocoons, Morphs & Chrysalis). Publicado en NPM como `terra-webbl@1.1.0`.
@@ -30,9 +30,10 @@ Actualmente el ecosistema Terra cuenta con **9 Aplicaciones Creadas, Verificadas
 7. **🕷️ TERMES** (`c:\mis-proyectos\Terra\termes`): Digestor DOM, Anti-Bot Stealth & Sintetizador de APIs Inversas. Publicado en NPM como `terra-termes@1.1.1`. Repo público: [amglogicalis/termes-repo-public](https://github.com/amglogicalis/termes-repo-public). Consola Web: [amglogicalis.github.io/termes-repo-public/](https://amglogicalis.github.io/termes-repo-public/).
 8. **🛡️ SINCHLOR** (`c:\mis-proyectos\Terra\sinchlor`): Motor de Camuflaje de Credenciales, DNS de Secretos & Secretos Efímeros. Publicado en NPM como `terra-sinchlor@1.0.0`. Repo público: [amglogicalis/sinchlor-repo-public](https://github.com/amglogicalis/sinchlor-repo-public). Consola Web: [amglogicalis.github.io/sinchlor-repo-public/](https://amglogicalis.github.io/sinchlor-repo-public/).
 9. **🐜 FORMICA** (`c:\mis-proyectos\Terra\formica`): The Formic Mesh — Event Mesh & Bus Pub/Sub (Pheromones), K/V Store distribuido (Chambers), Telemetría (Foragers), WAF Gateway prioritario (Soldiers), Motor de Purga Universal (Legionarys), Hub de Providers & Anthill (procesador asíncrono en GitHub Actions). Publicado como `terra-formica@2.0.0`. Repo público: [amglogicalis/Formica](https://github.com/amglogicalis/Formica). Consola Web Queen Studio: [amglogicalis.github.io/Formica/](https://amglogicalis.github.io/Formica/).
+10. **🛡️ WAISP** (`c:\mis-proyectos\Terra\waisp`): Pentesting Automatizado, DAST, Red Teaming, Proof-of-Exploit (PoE) Dual-Phase Engine, NestHiveSandbox, AutoPotter Pipeline & WaispColony Mesh P2P. Publicado en NPM como `terra-waisp@1.3.0`. Repo público: [amglogicalis/waisp-repo-public](https://github.com/amglogicalis/waisp-repo-public). Consola Web: [amglogicalis.github.io/waisp-repo-public/](https://amglogicalis.github.io/waisp-repo-public/).
 
 ### 🟡 Próxima Aplicación a Construir (Fase 4: Orquestación & Cron Maestro):
-👉 **⏰ SYNCADA** (`c:\mis-proyectos\Terra\syncada`): Orquestador de Tareas Programadas & Colas (Cron Maestro) — **objetivo: llegar a esta fase con Formica completado ✅**.
+👉 **⏰ SYNCADA** (`c:\mis-proyectos\Terra\syncada`): Orquestador de Tareas Programadas & Colas (Cron Maestro) — **objetivo: llegar a esta fase con Formica y Waisp completados ✅**.
 
 ### 📋 Resto de Aplicaciones Pendientes:
 1. **⏰ SYNCADA**: Orquestador de Tareas Programadas & Colas (Cron Maestro) — **PRÓXIMA**.
@@ -227,12 +228,12 @@ flowchart TD
 
 ---
 
-### 11. 🛡️ WAISP — Pentesting Automatizado & Red Teaming
-- **Estado**: 🟡 **Pendiente**
-- **Ubicación futura**: `c:\mis-proyectos\Terra\waisp`
-- **¿Qué hace?**: Orquestador de seguridad ofensiva (DAST) y escaneo de vulnerabilidades.
-- **¿Cómo funciona?**: Ejecuta suites de seguridad comprobadas (OWASP ZAP, Nuclei) dentro de GitHub Actions y reporta hallazgos clasificados como GitHub Issues accionables.
-- **Para qué sirve**: Auditar automáticamente aplicaciones web en busca de fallos de seguridad antes de su puesta en producción.
+### 11. 🛡️ WAISP — DAST, Proof-of-Exploit (PoE), AutoPotter Pipeline & WaispColony Mesh P2P
+- **Estado**: 🟢 **Creada & Operativa**
+- **Ubicación**: `c:\mis-proyectos\Terra\waisp`
+- **¿Qué hace?**: Plataforma de pentesting automatizado, DAST (Dynamic Application Security Testing), Red Teaming, trampas señuelo Nectar (Poison Mirror Tarpits) e inmunidad P2P colectiva (WaispColony Mesh) con auto-curación autónoma (AutoPotter Pipeline + NestHiveSandbox) y verificación Proof-of-Exploit (PoE) a coste $0.
+- **¿Cómo funciona?**: Audita dinámicamente con ~0% falsos positivos mediante **Proof-of-Exploit (PoE) Dual-Phase Engine**, traza hallazgos directamente a líneas de código fuente AST (`src/api/auth.ts#L42`), ejecuta parches autónomos con pruebas efímeras aisladas en GitHub Actions (**NestHiveSandbox**), congela bots maliciosos a 1 byte/segundo (**Poison Mirror Tarpits**) y comparte feromonas anónimas de amenaza (**WaispColony Mesh**) para inmunizar a la colonia. Publicado en NPM como `terra-waisp@1.3.0`, con CLI unificado `waisp` y consola web interactiva 24/7 **WaispNest Studio**. Repo público: [amglogicalis/waisp-repo-public](https://github.com/amglogicalis/waisp-repo-public). Consola Web: [amglogicalis.github.io/waisp-repo-public/](https://amglogicalis.github.io/waisp-repo-public/).
+- **Para qué sirve**: Auditar y autocorregir automáticamente vulnerabilidades en aplicaciones web en producción con cero falsos positivos a coste $0.
 
 ---
 
