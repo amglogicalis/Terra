@@ -200,6 +200,22 @@ Permite auditar aplicaciones dinámicas con cero falsos positivos (<strong>Proof
 
 ---
 
+## ⏰ SYNCADA: Master Cron, Task Automation & Serverless Lambdas
+
+<p align="center">
+  <img src="assets/logo_syncada.png" alt="Syncada Logo" width="140" />
+</p>
+
+<p align="center">
+  <strong>SYNCADA</strong> es el motor de Master Cron, automatización de tareas y Serverless Lambdas ejecutoras de código JS/TS $0 coste con matriz de alta disponibilidad HA Fallback (3 max retries), filtrado inteligente Diff-Aware, barreras temporales distribuidas Stridulation Barrier Sync, metrónomo Rate-Pulse Governor y recibos forenses 1-Click Exuvia Replay del ecosistema Terra.
+</p>
+
+Permite automatizar cualquier flujo de trabajo o script sin servidores dedicados ni servicios de pago. Ejecuta **Chrono-Lambdas** (programadas por horario cron hiper-específico) o **Classic Lambdas** (ejecutadas bajo demanda por Webhook) con código JS/TS inline o URLs HTTP, aplicando conmutación por error **HA Fallback Matrix** (hasta 3 intentos), alertas multicanal directas (Webhooks Discord/Slack o GitHub Issues nativos), supresión de ejecuciones duplicadas sin cambios (**Diff-Aware SHA-256**) y re-ejecución forense a 1-clic de disparos pasados (**Exuvia Time-Travel Replay**). Incluye consola web interactiva 24/7 **Syncada Tymbal Studio** (desplegada online en vivo), paquete CLI global (`npm install -g terra-syncada`) y biblioteca Node.js/TypeScript.
+
+👉 **Explora el repositorio oficial de Syncada:** [Syncada Public Repository](https://github.com/amglogicalis/syncada-repo-public)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
@@ -216,8 +232,8 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🛡️ **Sinchlor** | *Gestión de Secretos* | 🟢 **Completado** | Camuflaje de credenciales, DNS de secretos y gestión de secretos efímeros. |
 | 🐜 **Formica** | *Event Mesh & Purga* | 🟢 **Completado** | Bus Pub/Sub (Pheromones), K/V Chambers, telemetría Foragers, WAF Soldiers, purga Legionarys, Anthill & CLI v2. |
 | 🛡️ **Waisp** | *Red Teaming & DAST* | 🟢 **Completado** | Pentesting DAST, Proof-of-Exploit (PoE), AutoPotter Pipeline, Nectar Traps & WaispColony Mesh P2P. |
-| ⏰ **Syncada** | *Orquestación & Crons* | 🟡 **Próxima — En Desarrollo** | Reloj maestro asíncrono, colas de mensajes y dispatcher de eventos cruzados. |
-| 🦗 **Grillout** | *Colas & Mensajería* | ⚪ *Planificado* | Motor de colas asíncronas, mensajería y notificaciones efímeras. |
+| ⏰ **Syncada** | *Orquestación & Crons* | 🟢 **Completado** | Master Cron, Task Automation, Serverless Lambdas ($0), HA Fallback, Diff-Aware & Exuvia Replay. |
+| 🦗 **Grillout** | *Colas & Mensajería* | 🟡 **Próxima — En Desarrollo** | Motor de colas asíncronas, mensajería y notificaciones efímeras. |
 | ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
 | 🐝 **MockHive** | *Compute & Serverless* | ⚪ *Planificado* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
 | 🦟 **Maskito** | *Testing & Data* | ⚪ *Planificado* | Motor de pruebas de estrés masivo y siembra sintética de datos. |
@@ -237,7 +253,7 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 1. **🧱 Fase 1 — Fundamentos:** `Webbl` ✅ ➡️ `Combase` ✅ *(almacenamiento, hosting y base de datos)*
 2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ✅ ➡️ `Ballom` ✅ *(auth, identidad, enrutamiento y proxy perimetral)*
 3. **🛡️ Fase 3 — Extracción, Datos & Secretos:** `Termes` ✅ ➡️ `Sinchlor` ✅ *(scraping inteligente, sintetizador de APIs y camuflaje de secretos)*
-4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Waisp` ✅ ➡️ `Syncada` 🚧 *(en desarrollo — próxima)* ➡️ `Grillout` ➡️ `Pheri` *(sistema nervioso del enjambre)*
+4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Waisp` ✅ ➡️ `Syncada` ✅ ➡️ `Grillout` 🚧 *(en desarrollo — próxima)* ➡️ `Pheri` *(sistema nervioso del enjambre)*
 5. **🐝 Fase 5 — Compute:** `MockHive` *(cómputo efímero bajo demanda)*
 6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ➡️ `Lepisma` *(validación de lo existente)*
 7. **🧹 Fase 7 — Gobernanza & Control:** `Chiton` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa — Formica Legionarys ya disponible ✅)*
