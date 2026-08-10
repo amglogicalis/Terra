@@ -956,24 +956,39 @@ Lepisma es un escáner lingüísticamente agnóstico, capaz de mantener la juven
 ## 4. Propuesta de Valor Único
 Lepisma transforma la tediosa y peligrosa tarea del mantenimiento de software en un proceso forense automatizado y predecible. Elimina el miedo a "romperlo todo por actualizar", asegurando que los despliegues no solo sean rápidos y baratos, sino que estén construidos sobre cimientos tecnológicos sanos, seguros y a la vanguardia.
 
----
-
-# 🐉 Reporte Técnico: ZENON
-**Gobernanza CI/CD, PR Reviewer (`git diff`), Sync de Docs (`Updater`), Auto-Fix de Tests (`Tester`) & Operador DevOps**
+# 🐝 Reporte Técnico: SPHEXN
+**Suite de Gobernanza Determinista, Verificación Continua y Armadura Estructural Zero-Dependencies**
 
 ## 1. Visión Ejecutiva y la Filosofía Terra
-**Zenon** (basado en la arquitectura *Polis*) es el Titán de Gobernanza de Código, Verificación Continua y Operaciones DevOps de Terra. Construido bajo el principio inmutable de **100% Cero Dependencias en Node.js**, Zenon se ejecuta directamente en el motor de GitHub (Actions, API, SHA-256) sin requerir infraestructura ni costes recurrentes.
+En el desarrollo de software moderno, la gobernanza del código, la auditoría de seguridad y la orquestación de CI/CD suelen requerir plataformas pesadas y costosas o agentes cognitivos complejos que introducen overhead y costes fijos.
 
-A diferencia de motores cognitivos dinámicos como **Hiven 🐝** (que construyen grafos DAG sobre la marcha), **Zenon** utiliza una suite de **módulos quirúrgicamente hardcodeados y altamente especializados**:
-* **`Analyzer`**: Escaneo de arquitectura, métricas de tokens y generación sintética de diagramas Mermaid.
-* **`Reviewer`**: Auditoría automática de `git diff` en Pull Requests con retroalimentación instantánea.
-* **`Updater`**: Sincronización bidireccional automática entre el código fuente y la documentación (`README.md`).
-* **`Tester`**: Ejecución de suites de prueba (Jest, Pytest, Vitest), captura forense de fallos y **Auto-Fix** automatizado del código.
-* **`DevOpser`**: Orquestación de pipelines declarativos en Markdown (`zenon_devops.md`).
-* **`Trainer`**: Grounding y verificación de conocimiento con IA.
+Sphexn nace para resolver esto mediante la optimización absoluta. Operando bajo la estricta filosofía de **Coste Marginal Cero** y **Cero Dependencias**, Sphexn no es un agente cognitivo generalista, sino un motor de ejecución determinista. Inspirado en la avispa *Sphex* —famosa en la ciencia cognitiva por su comportamiento de ejecución de rutinas preprogramadas e inquebrantables—, Sphexn es una suite CLI minimalista. Se ejecuta de forma efímera utilizando únicamente las primitivas nativas de Node.js y la infraestructura gratuita de GitHub para auditar, reparar y orquestar el ciclo de vida del software, garantizando que el entorno tecnológico (El Laboratorio Fantasma) se mantenga puro y estructuralmente perfecto.
 
-## 2. Sinergia Total con MANTX 🦗 (Eliminación del BYOK)
-Para garantizar la independencia total y mantener el coste $0, **Zenon** se conecta de forma nativa con **Mantx (Mantis) 🧠**. En lugar de depender de API Keys de terceros (BYOK), Zenon invoca los micro-servidores de inferencia efímeros desplegados por **Mantx**, aprovechando sus modelos entrenados localmente para realizar code reviews, auto-fixes y auditorías sin ningún límite ni factura externa.
+## 2. Arquitectura y Mecánica Operativa (Modelo de Ejecución)
+Sphexn elimina la necesidad de orquestadores de tareas persistentes. Su arquitectura desacopla la lógica quirúrgica (Node.js nativo) de la infraestructura de ejecución (GitHub), operando bajo el paradigma de "Despliegue Atómico y Volatilización".
+
+### A. Ejecución Efímera Zero-Dependencies
+Sphexn no reside en un servidor en reposo. Despierta mediante un evento del repositorio (Git o CI/CD) e invoca a una de sus "Especies" (su núcleo CLI). Este código es 100% puro, utilizando exclusivamente las APIs nativas del motor (como `fs`, `crypto`, `child_process`). Esta arquitectura *naked* garantiza que Sphexn sea hiperveloz, seguro y ligero, consumiendo cero recursos financieros en reposo.
+
+### B. Las "Sphexn Species" (Módulos Quirúrgicos y Deterministas)
+A diferencia de los enjambres cognitivos que improvisan rutas, Sphexn ejecuta misiones predefinidas con un éxito matemático:
+
+* **Sphexn Lucae**: Sintetiza diagramas y métricas de complejidad sintáctica (antes *Zenon Analyzer*).
+* **Sphexn Praedator**: Ejecuta la auditoría estricta sobre Pull Requests mediante `git diff` (antes *Zenon Reviewer*).
+* **Sphexn Micans**: Sincroniza y pule la documentación técnica (`README.md`, `CHANGELOG.md`) automáticamente (antes *Zenon Updater*).
+* **Sphexn Nudus**: Diagnostica stack traces rotos y ejecuta parches de auto-curación (*Auto-Fix*) en tests (antes *Zenon Tester*).
+* **Sphexn Rex**: Orquesta tareas de DevOps leyendo manifiestos Markdown declarativos (antes *Zenon DevOpser*).
+* **Sphexn Obscurus**: Filtra y valida las alucinaciones de modelos de IA externos antes del commit (antes *Zenon Trainer*).
+
+### C. El Paradigma de Inteligencia Inyectada (Phantom Intelligence)
+Sphexn es determinista, por lo que no aloja modelos de IA pesados internamente. En las especies que requieren inferencia (como *Nudus* para arreglar un test o *Obscurus* para auditar un prompt), Sphexn actúa como orquestador: solicita la inteligencia de forma efímera al proveedor configurado (`BYOIAMODEL`), inyectando las credenciales temporalmente para obtener la respuesta y volatilizarse a continuación.
+
+## 3. Independencia, Integración y Compatibilidad Futura
+Sphexn es un ejecutor soberano. Puede integrarse nativamente en repositorios de cualquier nube (GitHub, GitLab, Bitbucket) utilizando webhooks o runners locales, manteniendo siempre la disciplina arquitectónica de cualquier proyecto de software de forma autónoma.
+
+Además, Sphexn está concebido desde el día cero para ser **100% compatible con las APIs futuras de Hiven 🐝**, permitiendo que los enjambres cognitivos deleguen tareas deterministas de gobernanza en Sphexn, así como con las **APIs de Inteligencia del Ecosistema Terra** (servidores efímeros de **Mantx 🧠** y el puente **Termes Web-AI Bridge**) y **proveedores de IA reales** del mercado (Gemini, Groq, OpenRouter, Anthropic, Ollama local vía BYOI/BYOK). 
+
+*(Nota de Integración: Aunque esta interoperabilidad depende principalmente de los propios proveedores y conectores de Terra, un refinamiento modular específico en Sphexn le vendrá de maravilla a la hora de realizar su integración oficial en la hoja de ruta).*
 
 ---
 
@@ -1007,5 +1022,5 @@ En el análisis de repositorios externos, se ha evaluado cada arquitectura frent
 | **Tenzor API** | 🚫 **Integración C** | **Descartado**: Servidor FastAPI redundante que rompe la arquitectura serverless de Terra. |
 | **Tabasco** | 🧩 **Integración B** | **Termes Web-AI Bridge (Tabasco)**: Integrado únicamente en **Termes 🕷️**. Su driver Playwright Stealth permite interactuar y consultar portales Web-AI en formato bridge $0 coste. |
 | **Arzor AIs** | 🧩 **Integración B** | **Mantx Code**: Su motor AFT, RAG Grafo de Obsidian y CLI interactivo con debates nacen como **`Mantx Code`** en **Mantx 🧠**. |
-| **Zenon & Polis** | 🚀 **Integración A** | **Titán Zenon 🐉**: Nace como el Titán de Gobernanza CI/CD, PR Review, Sync de Docs y Auto-Fix de Tests en la Hoja de Ruta. |
+| **Sphexn & Polis** | 🚀 **Integración A** | **Titán Sphexn 🐝**: Nace como la Suite de Gobernanza Determinista, Verificación Continua, PR Review (Praedator), Sync Docs (Micans), Auto-Fix (Nudus) y DevOps (Rex) en la Hoja de Ruta. |
 
