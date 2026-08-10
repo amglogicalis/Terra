@@ -36,19 +36,17 @@ Actualmente el ecosistema Terra cuenta con **11 Aplicaciones Creadas, Verificada
 ### 🟡 Próxima Aplicación a Construir (Fase 4: Comunicación & Notificaciones):
 👉 **🦗 GRILLOUT** (`c:\mis-proyectos\Terra\grillout`): Motor de Colas Asíncronas & Mensajería Efímera — **objetivo: llegar a esta fase con Syncada completado ✅**.
 
-### 📋 Resto de Aplicaciones Pendientes:
-1. **⏰ SYNCADA**: Orquestador de Tareas Programadas & Colas (Cron Maestro) — **PRÓXIMA**.
-2. **🦗 GRILLOUT**: Motor de Colas Asíncronas, Mensajería & Notificaciones Efímeras.
-4. **⚡ PHERI**: Event Streaming en Tiempo Real de Alta Frecuencia.
-5. **🐝 MOCKHIVE / MOCKHIVEN**: Infraestructura Efímera (PollenPods & Waggles).
-11. **🦟 MASKITO**: Motor de Stress Testing & Generación Sintética de Datos.
-12. **🦎 LEPISMA**: Motor de Salud Estructural, Mapeo de Dependencias & Anti-Decadencia.
-13. **🛡️ WAISP**: Pentesting Automatizado & Red Teaming (DAST).
-14. **🦗 CHITON**: Gobernanza, Detección de Secretos & FinOps Multicloud.
-15. **🦋 DECREFLY**: Motor de Equilibrio Activo, Techo Financiero & Arquitectura de Suma Cero.
-16. **📊 LIBELLA**: Panel de Observabilidad, Telemetría y FinOps.
-17. **🧠 MANTX / MANTIS**: Arena AutoML, Inferencia Efímera & LLMOps.
-18. **🎛️ TERRA CONSOLE & HUB**: Centro de Mando Interno & Ecosistema Público.
+### 📋 Resto de Aplicaciones Pendientes (10):
+1. **🦗 GRILLOUT**: Motor de Colas Asíncronas, Mensajería & Notificaciones Efímeras — **PRÓXIMA**.
+2. **⚡ PHERI**: Event Streaming en Tiempo Real de Alta Frecuencia.
+3. **🐝 MOCKHIVE / MOCKHIVEN**: Infraestructura Efímera (PollenPods & Waggles).
+4. **🦟 MASKITO**: Motor de Stress Testing & Generación Sintética de Datos.
+5. **🦎 LEPISMA**: Motor de Salud Estructural, Mapeo de Dependencias & Anti-Decadencia.
+6. **🦗 CHITON**: Gobernanza, Detección de Secretos & FinOps Multicloud.
+7. **🦋 DECREFLY**: Motor de Equilibrio Activo, Techo Financiero & Arquitectura de Suma Cero.
+8. **📊 LIBELLA**: Panel de Observabilidad, Telemetría y FinOps.
+9. **🧠 MANTX / MANTIS**: Arena AutoML, Inferencia Efímera & LLMOps.
+10. **🎛️ TERRA CONSOLE & HUB**: Centro de Mando Interno & Ecosistema Público.
 
 ---
 
