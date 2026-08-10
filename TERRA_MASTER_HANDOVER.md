@@ -955,3 +955,57 @@ Lepisma es un escáner lingüísticamente agnóstico, capaz de mantener la juven
 * **Sinergia con el Enjambre:** Es el compañero perfecto de **Decrefly** y **Formica Legionarys**. Si Lepisma detecta una vulnerabilidad crítica, puede ordenar a Decrefly que detenga nuevos despliegues y asigne una "puntuación de salud baja" al proyecto, desencadenando una alerta prioritaria en **Grillout**.
 ## 4. Propuesta de Valor Único
 Lepisma transforma la tediosa y peligrosa tarea del mantenimiento de software en un proceso forense automatizado y predecible. Elimina el miedo a "romperlo todo por actualizar", asegurando que los despliegues no solo sean rápidos y baratos, sino que estén construidos sobre cimientos tecnológicos sanos, seguros y a la vanguardia.
+
+---
+
+# 🐉 Reporte Técnico: ZENON
+**Gobernanza CI/CD, PR Reviewer (`git diff`), Sync de Docs (`Updater`), Auto-Fix de Tests (`Tester`) & Operador DevOps**
+
+## 1. Visión Ejecutiva y la Filosofía Terra
+**Zenon** (basado en la arquitectura *Polis*) es el Titán de Gobernanza de Código, Verificación Continua y Operaciones DevOps de Terra. Construido bajo el principio inmutable de **100% Cero Dependencias en Node.js**, Zenon se ejecuta directamente en el motor de GitHub (Actions, API, SHA-256) sin requerir infraestructura ni costes recurrentes.
+
+A diferencia de motores cognitivos dinámicos como **Hiven 🐝** (que construyen grafos DAG sobre la marcha), **Zenon** utiliza una suite de **módulos quirúrgicamente hardcodeados y altamente especializados**:
+* **`Analyzer`**: Escaneo de arquitectura, métricas de tokens y generación sintética de diagramas Mermaid.
+* **`Reviewer`**: Auditoría automática de `git diff` en Pull Requests con retroalimentación instantánea.
+* **`Updater`**: Sincronización bidireccional automática entre el código fuente y la documentación (`README.md`).
+* **`Tester`**: Ejecución de suites de prueba (Jest, Pytest, Vitest), captura forense de fallos y **Auto-Fix** automatizado del código.
+* **`DevOpser`**: Orquestación de pipelines declarativos en Markdown (`zenon_devops.md`).
+* **`Trainer`**: Grounding y verificación de conocimiento con IA.
+
+## 2. Sinergia Total con MANTX 🦗 (Eliminación del BYOK)
+Para garantizar la independencia total y mantener el coste $0, **Zenon** se conecta de forma nativa con **Mantx (Mantis) 🧠**. En lugar de depender de API Keys de terceros (BYOK), Zenon invoca los micro-servidores de inferencia efímeros desplegados por **Mantx**, aprovechando sus modelos entrenados localmente para realizar code reviews, auto-fixes y auditorías sin ningún límite ni factura externa.
+
+---
+
+# 🧠 Especificación Ampliada MANTX 🧠 — `Mantx Code`
+
+**Mantx Code** (`mantx code` / `mantx` CLI) es la interfaz terminal de desarrollo autónomo local de **Mantx 🧠** (el equivalente en Terra a *Claude Code* / *Antigravity CLI*).
+
+## 🚀 Arquitectura Híbrida 3-Provider (El Sistema Más Completo)
+`Mantx Code` soporta una arquitectura de inferencia triple seleccionable:
+1. **Mantx Trained Server Models**: Modelos de IA entrenados y servidos efímeramente por Mantx ($0).
+2. **Local Ollama**: Integración offline 100% local con servidores Ollama (`http://localhost:11434`).
+3. **BYOK (Bring Your Own Key)**: Compatibilidad directa con proveedores externos (Gemini, Groq, OpenRouter, Anthropic, DeepSeek, Cerebras, SambaNova).
+
+## 🔮 Funcionalidades Core Integradas de Arzor AIs:
+* **Compilación AFT (Agent Fine-Tuning & Prompt Architecture Tuning)**: Sistema dinámico para compilar y personalizar la conducta de los agentes según el lenguaje y contexto del proyecto.
+* **Obsidian Second Brain RAG**: RAG avanzado basado en grafos de relaciones (`[[wikilinks]]`) para contextualización de repositorios complejos.
+* **Round Tables (`mantx code debate`)**: Mesa redonda multi-agente donde distintos modelos debaten la arquitectura antes de tocar el código.
+* **Team Cascading (`mantx code team`)**: Orquestación en cascada de subagentes con roles asignados.
+* **Lectura Sintáctica con Esqueletos**: Generador de esqueletos de código (`def`, `class`, `import`, firmas de métodos) para optimización masiva de ventana de contexto.
+* **Dry-Run Planning (`mantx code plan`) & Deshacer (`mantx code clean`)**: Simulación y aplicación segura de parches en memoria antes del commit final.
+
+---
+
+# 📊 Auditoría de Proyectos Externos (Matriz de Integración Terra)
+
+En el análisis de repositorios externos, se ha evaluado cada arquitectura frente a los pilares inquebrantables de Terra ($0 Coste, Motor GitHub, Serverless, Independencia Total):
+
+| Proyecto Evaluado | Clasificación | Destino en el Ecosistema Terra |
+| :--- | :---: | :--- |
+| **AWS AI Server** | 🚫 **Integración C** | **Descartado**: Depende de infraestructura Cloud de pago en AWS (instancias GPU EC2 y S3). |
+| **Tenzor API** | 🚫 **Integración C** | **Descartado**: Servidor FastAPI redundante que rompe la arquitectura serverless de Terra. |
+| **Tabasco** | 🧩 **Integración B** | **Termes Web-AI Bridge**: Su driver Playwright Stealth para usar chats web sin API keys se integra en **Termes 🕷️** y **Ballom 🎭**. |
+| **Arzor AIs** | 🧩 **Integración B** | **Mantx Code**: Su motor AFT, RAG Grafo de Obsidian y CLI interactivo con debates nacen como **`Mantx Code`** en **Mantx 🧠**. |
+| **Zenon & Polis** | 🚀 **Integración A** | **Titán Zenon 🐉**: Nace como el Titán de Gobernanza CI/CD, PR Review, Sync de Docs y Auto-Fix de Tests en la Hoja de Ruta. |
+
