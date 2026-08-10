@@ -1005,7 +1005,7 @@ En el análisis de repositorios externos, se ha evaluado cada arquitectura frent
 | :--- | :---: | :--- |
 | **AWS AI Server** | 🚫 **Integración C** | **Descartado**: Depende de infraestructura Cloud de pago en AWS (instancias GPU EC2 y S3). |
 | **Tenzor API** | 🚫 **Integración C** | **Descartado**: Servidor FastAPI redundante que rompe la arquitectura serverless de Terra. |
-| **Tabasco** | 🧩 **Integración B** | **Termes Web-AI Bridge**: Su driver Playwright Stealth para usar chats web sin API keys se integra en **Termes 🕷️** y **Ballom 🎭**. |
+| **Tabasco** | 🧩 **Integración B** | **Termes Web-AI Bridge (Tabasco)**: Integrado únicamente en **Termes 🕷️**. Su driver Playwright Stealth permite interactuar y consultar portales Web-AI en formato bridge $0 coste. |
 | **Arzor AIs** | 🧩 **Integración B** | **Mantx Code**: Su motor AFT, RAG Grafo de Obsidian y CLI interactivo con debates nacen como **`Mantx Code`** en **Mantx 🧠**. |
 | **Zenon & Polis** | 🚀 **Integración A** | **Titán Zenon 🐉**: Nace como el Titán de Gobernanza CI/CD, PR Review, Sync de Docs y Auto-Fix de Tests en la Hoja de Ruta. |
 
