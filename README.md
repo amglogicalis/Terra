@@ -226,9 +226,23 @@ Permite automatizar cualquier flujo de trabajo o script sin servidores dedicados
   <strong>GRILLOUT</strong> es el motor de colas efímeras asíncronas, mensajería diferida, deduplicación SHA-256, escudos anti-bot HoneyChirp PoisonShield, síntesis de plantillas HTML/Markdown (Gryllus Template Synthesizer) y difusión multicast simultánea (Discord, Slack, Telegram, Webhook, Email, GitHub Issues) a coste $0 del ecosistema Terra.
 </p>
 
-Permite gestionar canalizaciones asíncronas completas mediante **Webhook Gateways** (Pipeline de 3 fases: Orígenes de Entrada ➔ Filtros & Seguridad HMAC ➔ Salidas Multicast), suprimir notificaciones duplicadas con ventanas configurables (**Deduplicador SHA-256**), filtrar ataques pasivos de bots (**HoneyChirp PoisonShield**), renderizar plantillas dinámicas con visualizador interactivo (**Gryllus Template Synthesizer** con soporte Drag & Drop de archivos `.html`/`.md`), ejecutar consumo de lotes en directo y re-ejecución forense de 1-clic (**DLQ Forensic Replay**). Incluye consola web interactiva 24/7 **Gryllus Studio** (desplegada online en vivo), paquete CLI global (`npm install -g grillout`) y SDK TypeScript nativo.
+Permite gestionar canalizaciones asíncronas completas mediante **Webhook Gateways** (Pipeline de 3 fases: Orígenes de Entrada ➔ Filtros & Seguridad HMAC ➔ Salidas Multicast), suprimir notificaciones duplicadas con ventanas configurables (**Deduplicador SHA-256**), filtrar ataques pasivos de bots (**HoneyChirp PoisonShield**), renderizar plantillas dinámicas con visualizador interactivo (**Gryllus Template Synthesizer** con soporte Drag & Drop de archivos `.html`/`.md`), ejecutar consumo de lotes en directo y re-ejecución 👉 **Explora el repositorio oficial de Grillout:** [Grillout Public Repository](https://github.com/amglogicalis/grillout-repo-public)
 
-👉 **Explora el repositorio oficial de Grillout:** [Grillout Public Repository](https://github.com/amglogicalis/grillout-repo-public)
+---
+
+## 🦟 MASKITO: Swarm Stress Testing, Synthetic Data Seeding & Chaos Engine
+
+<p align="center">
+  <img src="assets/logo_maskito.png" alt="Maskito Engine Logo" width="140" />
+</p>
+
+<p align="center">
+  <strong>MASKITO</strong> es el motor de pruebas de esfuerzo masivo (Load Testing), siembra de datos sintéticos estadísticamente coherentes (BREED Suite), fuzzer de payloads adversarios (Venom Seed), simulación de relevo de resistencia de 48h (Siege Relay), pruebas de carga con navegadores Playwright reales (Phantom), replay de tráfico de producción (Echo) e ingeniería de caos (Toxin, Epidemic, Cascade) a coste $0 del ecosistema Terra.
+</p>
+
+Permite ejecutar 12 funciones de testing y caos distribuidas entre $N$ mosquitos (runners paralelos de GitHub Actions) sin infraestructura dedicada ni cuotas de suscripción. Incluye la consola web interactiva 24/7 **Maskito Studio** (desplegada online en vivo con inyección directa 1-Click de workflows `.github/workflows/maskito-*.yml`), paquete CLI global (`npm install -g terra-maskito`) y SDK TypeScript nativo.
+
+👉 **Explora el repositorio oficial de Maskito:** [Maskito Public Repository](https://github.com/amglogicalis/maskito-repo-public)
 
 ---
 
@@ -250,10 +264,10 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🛡️ **Waisp** | *Red Teaming & DAST* | 🟢 **Completado** | Pentesting DAST, Proof-of-Exploit (PoE), AutoPotter Pipeline, Nectar Traps & WaispColony Mesh P2P. |
 | ⏰ **Syncada** | *Orquestación & Crons* | 🟢 **Completado** | Master Cron, Task Automation, Serverless Lambdas ($0), HA Fallback, Diff-Aware & Exuvia Replay. |
 | 🦗 **Grillout** | *Colas & Mensajería* | 🟢 **Completado** | Motor de colas asíncronas, mensajería diferida, Webhook Gateways y difusión multicast. |
-| 🦟 **Maskito** | *Testing & Data* | 🟡 **Próxima — En Desarrollo** | Motor de pruebas de estrés masivo y siembra sintética de datos. |
+| 🦟 **Maskito** | *Testing & Data* | 🟢 **Completado** | Motor de pruebas de esfuerzo masivo, siembra sintética de datos e ingeniería de caos. |
+| 🦎 **Lepism** | *Salud de Dependencias* | 🟡 **Próxima — En Desarrollo** | Motor de salud estructural, mapeo de dependencias y anti-decadencia. |
 | ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
 | 🐝 **MockHive** | *Compute & Serverless* | ⚪ *Planificado* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
-| 🦎 **Lepisma** | *Salud de Dependencias* | ⚪ *Planificado* | Motor de salud estructural, mapeo de dependencias y anti-decadencia. |
 | 🦗 **Chiton** | *Gobernanza & FinOps* | ⚪ *Planificado* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
 | 🦋 **Decrefly** | *Control Financiero* | ⚪ *Planificado* | Motor de equilibrio activo, techo financiero y arquitectura de suma cero. |
 | 📊 **Libella** | *Observabilidad & Telemetría* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes efímero. |
@@ -271,7 +285,7 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 3. **🛡️ Fase 3 — Extracción, Datos & Secretos:** `Termes` ✅ ➡️ `Sinchlor` ✅ *(scraping inteligente, sintetizador de APIs y camuflaje de secretos)*
 4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Waisp` ✅ ➡️ `Syncada` ✅ ➡️ `Grillout` ✅ ➡️ `Pheri` *(sistema nervioso del enjambre)*
 5. **🐝 Fase 5 — Compute:** `MockHive` *(cómputo efímero bajo demanda)*
-6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` 🚧 *(en desarrollo — próxima)* ➡️ `Lepisma` *(validación de lo existente)*
+6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ✅ ➡️ `Lepism` 🚧 *(en desarrollo — próxima)* *(validación de lo existente)*
 7. **🧹 Fase 7 — Gobernanza & Control:** `Chiton` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa — Formica Legionarys ya disponible ✅)*
 8. **🧠 Fase 8 — Inteligencia Artificial:** `Mantx` *(capa avanzada sobre infra consolidada)*
 9. **🎛️ Fase 9 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
