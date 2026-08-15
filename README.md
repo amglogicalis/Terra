@@ -246,6 +246,22 @@ Permite ejecutar 12 funciones de testing y caos distribuidas entre $N$ mosquitos
 
 ---
 
+## 🦎 LEPISM: Salud Estructural, Mapeo Polyglot de Dependencias & Anti-Decadencia
+
+<p align="center">
+  <img src="assets/logo_lepism.png" alt="Lepism Engine Logo" width="140" />
+</p>
+
+<p align="center">
+  <strong>LEPISM</strong> es el motor de salud estructural, mapeo polyglot de dependencias, prevención de decadencia de código y validación en sandboxes efímeros a coste $0 del ecosistema Terra.
+</p>
+
+A diferencia de las herramientas tradicionales de actualización ciega, Lepism ejecuta pruebas reales contra versiones candidatas en un **Sandbox Efímero de GitHub Actions** antes de tocar producción, genera reportes profundos de cambios de API (*Metamorphosis Breaking Diff*) sobre definiciones TypeScript, rastrea las fechas oficiales de fin de soporte (*Runtime EOL Epoch Tracker*) y sincroniza/deduplica árboles de dependencias (*Locksmith Multi-Lockfile Linter*). Soporta múltiples targets (GitHub Repositories, S3 Buckets, URLs y Localhost), incluye la consola web **Lepism Studio** (desplegada en GitHub Pages con inyección 1-Click de workflows), paquete CLI global (`npm install -g terra-lepism`) y SDK TypeScript.
+
+👉 **Explora el repositorio oficial de Lepism:** [Lepism Public Repository](https://github.com/amglogicalis/lepism-repo-public)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
@@ -265,13 +281,13 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | ⏰ **Syncada** | *Orquestación & Crons* | 🟢 **Completado** | Master Cron, Task Automation, Serverless Lambdas ($0), HA Fallback, Diff-Aware & Exuvia Replay. |
 | 🦗 **Grillout** | *Colas & Mensajería* | 🟢 **Completado** | Motor de colas asíncronas, mensajería diferida, Webhook Gateways y difusión multicast. |
 | 🦟 **Maskito** | *Testing & Data* | 🟢 **Completado** | Motor de pruebas de esfuerzo masivo, siembra sintética de datos e ingeniería de caos. |
-| 🦎 **Lepism** | *Salud de Dependencias* | 🟡 **Próxima — En Desarrollo** | Motor de salud estructural, mapeo de dependencias y anti-decadencia. |
+| 🦎 **Lepism** | *Salud de Dependencias* | 🟢 **Completado** | Motor de salud estructural, mapeo polyglot de dependencias, sandbox efímero y anti-decadencia. |
+| 🧠 **Mantx** | *AutoML & LLMOps* | 🟡 **Próxima — Siguiente en Desarrollo** | Arena de batalla de modelos ML/SLM, inferencia predictiva y optimización efímera. |
 | ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
 | 🐝 **MockHive** | *Compute & Serverless* | ⚪ *Planificado* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
 | 🦗 **Chiton** | *Gobernanza & FinOps* | ⚪ *Planificado* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
 | 🦋 **Decrefly** | *Control Financiero* | ⚪ *Planificado* | Motor de equilibrio activo, techo financiero y arquitectura de suma cero. |
 | 📊 **Libella** | *Observabilidad & Telemetría* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes efímero. |
-| 🧠 **Mantx** | *AutoML & LLMOps* | ⚪ *Planificado* | Arena de batalla de modelos ML/SLM e inferencia predictiva efímera. |
 | 🎛️ **Terra Console & Hub** | *Orquestación & Comunidad* | ⚪ *Planificado* | Centro de mando unificado y ecosistema público (Forest, Library, Colony). |
 
 ---
@@ -285,9 +301,9 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 3. **🛡️ Fase 3 — Extracción, Datos & Secretos:** `Termes` ✅ ➡️ `Sinchlor` ✅ *(scraping inteligente, sintetizador de APIs y camuflaje de secretos)*
 4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Waisp` ✅ ➡️ `Syncada` ✅ ➡️ `Grillout` ✅ ➡️ `Pheri` *(sistema nervioso del enjambre)*
 5. **🐝 Fase 5 — Compute:** `MockHive` *(cómputo efímero bajo demanda)*
-6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ✅ ➡️ `Lepism` 🚧 *(en desarrollo — próxima)* *(validación de lo existente)*
-7. **🧹 Fase 7 — Gobernanza & Control:** `Chiton` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa — Formica Legionarys ya disponible ✅)*
-8. **🧠 Fase 8 — Inteligencia Artificial:** `Mantx` *(capa avanzada sobre infra consolidada)*
+6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ✅ ➡️ `Lepism` ✅ *(salud estructural y validación de lo existente)*
+7. **🧠 Fase 7 — Inteligencia Artificial & ML:** `Mantx` 🚧 *(próxima en desarrollo — arena de modelos e inferencia)*
+8. **🧹 Fase 8 — Gobernanza & Control:** `Chiton` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa — Formica Legionarys ya disponible ✅)*
 9. **🎛️ Fase 9 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
 
 ---
