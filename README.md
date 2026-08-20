@@ -262,6 +262,22 @@ A diferencia de las herramientas tradicionales de actualización ciega, Lepism e
 
 ---
 
+## 🧠 MANTX: Autonomous AI Model Training, Comparison & Agentic Intelligence Engine
+
+<p align="center">
+  <img src="assets/logo_mantx.jpg" alt="Mantx Engine Logo" width="140" />
+</p>
+
+<p align="center">
+  <strong>MANTX</strong> es el motor autónomo de entrenamiento de modelos IA (Nimphys), fine-tuning (LoRA, QLoRA, RAFT, AFT), evaluación comparativa (Deimatic Battles & Wars), memoria semántica relacional (Ecdysis Memory), mitigación de errores 429 (AKG Gateway) y auto-reentrenamiento en bucle cerrado (Auto-Heal) a coste $0 del ecosistema Terra.
+</p>
+
+Permite sintetizar datasets con **Constitutional AI** y **Evol-Instruct** (*Synthetic Data Forge*), ejecutar matrices de entrenamiento y benchmarks en paralelo (*Nimphys Laboratory Matrix Studio*) aprovechando las 6 horas de cómputo gratuito de **GitHub Actions** ($0 Compute), almacenar pesos y adaptadores de hasta 2GB en **GitHub Releases** ($0 Storage), centralizar claves BYOK con auto-rotación (**AKG Gateway**), inyectar memoria semántica continua (**Ecdysis Memory**) y monitorear la salud de los modelos en producción con auto-reentrenamiento y **Garantía de No-Regresión**. Incluye consola web SPA interactiva desplegada en GitHub Pages, paquete CLI global (`npm install -g terra-mantx`) y SDK para TypeScript/Node.js.
+
+👉 **Explora el repositorio oficial de Mantx:** [Mantx Public Repository](https://github.com/amglogicalis/mantx-repo-public)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
@@ -282,9 +298,9 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🦗 **Grillout** | *Colas & Mensajería* | 🟢 **Completado** | Motor de colas asíncronas, mensajería diferida, Webhook Gateways y difusión multicast. |
 | 🦟 **Maskito** | *Testing & Data* | 🟢 **Completado** | Motor de pruebas de esfuerzo masivo, siembra sintética de datos e ingeniería de caos. |
 | 🦎 **Lepism** | *Salud de Dependencias* | 🟢 **Completado** | Motor de salud estructural, mapeo polyglot de dependencias, sandbox efímero y anti-decadencia. |
-| 🧠 **Mantx** | *AutoML & LLMOps* | 🟡 **Próxima — Siguiente en Desarrollo** | Arena de batalla de modelos ML/SLM, inferencia predictiva y optimización efímera. |
+| 🧠 **Mantx** | *AutoML, Fine-Tuning & LLMOps* | 🟢 **Completado** | Motor autónomo de entrenamiento (Nimphys), síntesis de datos (Forge), batallas comparativas y auto-heal a coste $0. |
+| 🐝 **MockHive** | *Compute & Serverless* | 🟡 **Próxima — Siguiente en Desarrollo** | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
 | ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
-| 🐝 **MockHive** | *Compute & Serverless* | ⚪ *Planificado* | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
 | 🦗 **Chiton** | *Gobernanza & FinOps* | ⚪ *Planificado* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
 | 🦋 **Decrefly** | *Control Financiero* | ⚪ *Planificado* | Motor de equilibrio activo, techo financiero y arquitectura de suma cero. |
 | 📊 **Libella** | *Observabilidad & Telemetría* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes efímero. |
@@ -300,9 +316,9 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ✅ ➡️ `Ballom` ✅ *(auth, identidad, enrutamiento y proxy perimetral)*
 3. **🛡️ Fase 3 — Extracción, Datos & Secretos:** `Termes` ✅ ➡️ `Sinchlor` ✅ *(scraping inteligente, sintetizador de APIs y camuflaje de secretos)*
 4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Waisp` ✅ ➡️ `Syncada` ✅ ➡️ `Grillout` ✅ ➡️ `Pheri` *(sistema nervioso del enjambre)*
-5. **🐝 Fase 5 — Compute:** `MockHive` *(cómputo efímero bajo demanda)*
+5. **🐝 Fase 5 — Compute & Serverless:** `MockHive` 🚧 *(próxima en desarrollo — cómputo efímero bajo demanda)*
 6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ✅ ➡️ `Lepism` ✅ *(salud estructural y validación de lo existente)*
-7. **🧠 Fase 7 — Inteligencia Artificial & ML:** `Mantx` 🚧 *(próxima en desarrollo — arena de modelos e inferencia)*
+7. **🧠 Fase 7 — Inteligencia Artificial & ML:** `Mantx` ✅ *(completado — fine-tuning, arena de batallas, memoria ecdysis y auto-heal)*
 8. **🧹 Fase 8 — Gobernanza & Control:** `Chiton` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa — Formica Legionarys ya disponible ✅)*
 9. **🎛️ Fase 9 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
 
