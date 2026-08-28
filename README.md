@@ -278,6 +278,22 @@ Permite sintetizar datasets con **Constitutional AI** y **Evol-Instruct** (*Synt
 
 ---
 
+## 🐝 MOCKHIVE: Servidores Virtuales, State Machines & Map-Reduce Swarm
+
+<p align="center">
+  <img src="assets/logo_mockhive.png" alt="MockHive Engine Logo" width="140" />
+</p>
+
+<p align="center">
+  <strong>MOCKHIVE</strong> es la plataforma de computación cloud efímera, servidores virtuales bajo demanda, orquestación de state machines y cluster distribuido Map-Reduce a coste $0 del ecosistema Terra.
+</p>
+
+Transforma el cómputo de GitHub Actions en una nube serverless completa sin servidores dedicados. Incluye **HiveNodes** (servidores virtuales Ubuntu 24.04 LTS con Web Terminal y SSH por puerto 443 vía Cloudflare Tunnel), **Waggles** (máquinas de estados declarativas ASL con conectores HTTP, Storage y Code con pausas para aprobación humana), **PollenPods** (micro-handlers serverless polyglot para Python, Node.js, Rust, Go, WASM y Bash) e **HiveGrid** (cluster distribuido Map-Reduce de 2 a 20 runners simultáneos con reducción jerárquica en árbol multinivel $O(\log N)$). Integra persistencia modular en GitHub Storage Vault (`.mockhive-storage`), Rolla Balls (`rolla://`) y AWS S3 / Cloudflare R2 (`s3://`). Incluye consola web interactiva 24/7 **MockHive Studio** (desplegada en GitHub Pages), paquete CLI global (`npm install -g terra-mockhive`) y SDK TypeScript nativo.
+
+👉 **Explora el repositorio oficial de MockHive:** [MockHive Public Repository](https://github.com/amglogicalis/mockhive-repo-public)
+
+---
+
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
 El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
@@ -299,8 +315,8 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🦟 **Maskito** | *Testing & Data* | 🟢 **Completado** | Motor de pruebas de esfuerzo masivo, siembra sintética de datos e ingeniería de caos. |
 | 🦎 **Lepism** | *Salud de Dependencias* | 🟢 **Completado** | Motor de salud estructural, mapeo polyglot de dependencias, sandbox efímero y anti-decadencia. |
 | 🧠 **Mantx** | *AutoML, Fine-Tuning & LLMOps* | 🟢 **Completado** | Motor autónomo de entrenamiento (Nimphys), síntesis de datos (Forge), batallas comparativas y auto-heal a coste $0. |
-| 🐝 **MockHive** | *Compute & Serverless* | 🟡 **Próxima — Siguiente en Desarrollo** | Entornos efímeros (Hives), funciones serverless (PollenPods) y grafos (Waggles). |
-| ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
+| 🐝 **MockHive** | *Compute & Serverless* | 🟢 **Completado** | Servidores virtuales Ubuntu (HiveNodes), máquinas de estados (Waggles), micro-handlers (PollenPods) y cluster Map-Reduce (HiveGrid). |
+| ⚡ **Pheri** | *Real-Time Streaming* | 🟡 **Próxima — Siguiente en Desarrollo** | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
 | 🦗 **Chiton** | *Gobernanza & FinOps* | ⚪ *Planificado* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
 | 🦋 **Decrefly** | *Control Financiero* | ⚪ *Planificado* | Motor de equilibrio activo, techo financiero y arquitectura de suma cero. |
 | 📊 **Libella** | *Observabilidad & Telemetría* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes efímero. |
@@ -315,8 +331,8 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 1. **🧱 Fase 1 — Fundamentos:** `Webbl` ✅ ➡️ `Combase` ✅ *(almacenamiento, hosting y base de datos)*
 2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ✅ ➡️ `Ballom` ✅ *(auth, identidad, enrutamiento y proxy perimetral)*
 3. **🛡️ Fase 3 — Extracción, Datos & Secretos:** `Termes` ✅ ➡️ `Sinchlor` ✅ *(scraping inteligente, sintetizador de APIs y camuflaje de secretos)*
-4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Waisp` ✅ ➡️ `Syncada` ✅ ➡️ `Grillout` ✅ ➡️ `Pheri` *(sistema nervioso del enjambre)*
-5. **🐝 Fase 5 — Compute & Serverless:** `MockHive` 🚧 *(próxima en desarrollo — cómputo efímero bajo demanda)*
+4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Waisp` ✅ ➡️ `Syncada` ✅ ➡️ `Grillout` ✅ ➡️ `Pheri` 🚧 *(próxima en desarrollo — streaming en tiempo real)*
+5. **🐝 Fase 5 — Compute & Serverless:** `MockHive` ✅ *(completado — servidores virtuales, state machines, micro-handlers y Map-Reduce)*
 6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ✅ ➡️ `Lepism` ✅ *(salud estructural y validación de lo existente)*
 7. **🧠 Fase 7 — Inteligencia Artificial & ML:** `Mantx` ✅ *(completado — fine-tuning, arena de batallas, memoria ecdysis y auto-heal)*
 8. **🧹 Fase 8 — Gobernanza & Control:** `Chiton` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa — Formica Legionarys ya disponible ✅)*
