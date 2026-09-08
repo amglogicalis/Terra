@@ -9,26 +9,25 @@
 </p>
 
 <p align="center">
-  <a href="#-visión-y-filosofía">Visión</a> •
-  <a href="#-el-motor-subyacente-github-engine">GitHub Engine</a> •
-  <a href="#-las-aplicaciones-del-ecosistema">Apps del Ecosistema</a> •
-  <a href="#-hiven-el-agente-cognitivo">Hiven AI</a> •
-  <a href="#-hoja-de-ruta">Roadmap</a> •
+  <a href="#vision-y-filosofia">Visión</a> •
+  <a href="#el-motor-subyacente-github-engine">GitHub Engine</a> •
+  <a href="#las-aplicaciones-del-ecosistema">Apps del Ecosistema</a> •
+  <a href="#hoja-de-ruta">Roadmap</a> •
   <a href="LICENSE">Licencia MIT</a>
 </p>
 
 ---
 
+<a id="vision-y-filosofia"></a>
 ## 🌍 Visión y Filosofía
 
 **Terra** no es solo un conjunto de herramientas; es un paradigma de arquitectura y una filosofía de ingeniería de software. Nace como respuesta a los altos costes y la complejidad operativa de la nube moderna.
 
 Su regla inquebrantable es: **Coste económico de infraestructura cero ($0) y mantenimiento nulo**, garantizando siempre una experiencia de usuario fluida, gratuita y libre de dependencias cautivas de terceros.
 
-En Terra, la infraestructura no se alquila ni se mantiene encendida 24/7; **se invoca, se consume y se autodestruye en cuestión de segundos (El Laboratorio Fantasma).**
-
 ---
 
+<a id="el-motor-subyacente-github-engine"></a>
 ## ⚙️ El Motor Subyacente (GitHub Engine)
 
 Terra transforma de forma legítima y creativa las primitivas gratuitas de la plataforma de GitHub en un motor de computación en la nube:
@@ -294,9 +293,22 @@ Transforma el cómputo de GitHub Actions en una nube serverless completa sin ser
 
 ---
 
+## 🐝 SPHEXN: Deterministic Governance Suite, Continuous Verification & Structural Armor
+
+<p align="center">
+  <a href="https://github.com/amglogicalis/sphexn-repo-public" target="_blank">
+    <img src="assets/logo_sphexn.png" alt="Sphexn Engine Logo" width="140" />
+  </a>
+</p>
+
+👉 **Explora el repositorio oficial de Sphexn:** [Sphexn Public Repository](https://github.com/amglogicalis/sphexn-repo-public)
+
+---
+
+<a id="las-aplicaciones-del-ecosistema"></a>
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
-El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
+El ecosistema está compuesto por **23 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
 
 | App | Dominio | Estado | Descripción |
 | :--- | :--- | :---: | :--- |
@@ -316,7 +328,9 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 | 🦎 **Lepism** | *Salud de Dependencias* | 🟢 **Completado** | Motor de salud estructural, mapeo polyglot de dependencias, sandbox efímero y anti-decadencia. |
 | 🧠 **Mantx** | *AutoML, Fine-Tuning & LLMOps* | 🟢 **Completado** | Motor autónomo de entrenamiento (Nimphys), síntesis de datos (Forge), batallas comparativas y auto-heal a coste $0. |
 | 🐝 **MockHive** | *Compute & Serverless* | 🟢 **Completado** | Servidores virtuales Ubuntu (HiveNodes), máquinas de estados (Waggles), micro-handlers (PollenPods) y cluster Map-Reduce (HiveGrid). |
-| ⚡ **Pheri** | *Real-Time Streaming* | 🟡 **Próxima — Siguiente en Desarrollo** | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
+| 🐝 **Sphexn** | *Gobernanza & Auditoría* | 🟢 **Completado** | Suite determinista de gobernanza, auditoría AST, auto-curación de tests, DevOps en Markdown y filtro anti-alucinaciones ($0 Compute). |
+| 🦟 **Phryx** | *Phantom Mesh & Zero-Trust* | 🟡 **Próxima — Siguiente en Desarrollo** | Red privada efímera, túneles localhost públicos ($0 ngrok-killer), salto de firewall dinámico (SilkFilter) y SSH efímero Zero-Trust. |
+| ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
 | 🦗 **Chiton** | *Gobernanza & FinOps* | ⚪ *Planificado* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
 | 🦋 **Decrefly** | *Control Financiero* | ⚪ *Planificado* | Motor de equilibrio activo, techo financiero y arquitectura de suma cero. |
 | 📊 **Libella** | *Observabilidad & Telemetría* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes efímero. |
@@ -324,6 +338,7 @@ El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») qu
 
 ---
 
+<a id="hoja-de-ruta"></a>
 ## 🚀 Hoja de Ruta de Desarrollo
 
 El criterio de ordenación es sencillo: **no se implementa una herramienta hasta que exista algo que justifique su existencia**. Una herramienta de observabilidad (`Libella`) no tiene sentido antes de que haya apps que observar. Un motor de purgado (`Formica Legionarys`) no tiene sentido antes de que exista infraestructura que purgar.
@@ -331,12 +346,15 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 1. **🧱 Fase 1 — Fundamentos:** `Webbl` ✅ ➡️ `Combase` ✅ *(almacenamiento, hosting y base de datos)*
 2. **🔒 Fase 2 — Identidad & Seguridad:** `Lumina` ✅ ➡️ `Ballom` ✅ *(auth, identidad, enrutamiento y proxy perimetral)*
 3. **🛡️ Fase 3 — Extracción, Datos & Secretos:** `Termes` ✅ ➡️ `Sinchlor` ✅ *(scraping inteligente, sintetizador de APIs y camuflaje de secretos)*
-4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Waisp` ✅ ➡️ `Syncada` ✅ ➡️ `Grillout` ✅ ➡️ `Pheri` 🚧 *(próxima en desarrollo — streaming en tiempo real)*
+4. **🔗 Fase 4 — Comunicación & Orquestación:** `Formica` ✅ ➡️ `Waisp` ✅ ➡️ `Syncada` ✅ ➡️ `Grillout` ✅
 5. **🐝 Fase 5 — Compute & Serverless:** `MockHive` ✅ *(completado — servidores virtuales, state machines, micro-handlers y Map-Reduce)*
 6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ✅ ➡️ `Lepism` ✅ *(salud estructural y validación de lo existente)*
 7. **🧠 Fase 7 — Inteligencia Artificial & ML:** `Mantx` ✅ *(completado — fine-tuning, arena de batallas, memoria ecdysis y auto-heal)*
-8. **🧹 Fase 8 — Gobernanza & Control:** `Chiton` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa — Formica Legionarys ya disponible ✅)*
-9. **🎛️ Fase 9 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
+8. **🐝 Fase 8 — Gobernanza & Blindaje Continuo:** `Sphexn` ✅ *(completado — suite determinista de gobernanza, auditoría AST, auto-curación de tests, DevOps en Markdown y filtro anti-alucinaciones)*
+9. **🦟 Fase 9 — The Phantom Mesh & Zero-Trust:** `Phryx` 🚧 *(próxima en desarrollo — red privada efímera, túneles localhost públicos $0 ngrok-killer, salto de firewall dinámico SilkFilter y SSH efímero Zero-Trust)*
+10. **⚡ Fase 10 — Streaming & Tiempo Real:** `Pheri` *(tuberías de eventos y streaming de alta frecuencia de coste cero)*
+11. **🧹 Fase 11 — Gobernanza & Control:** `Chiton` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa — Formica Legionarys ya disponible ✅)*
+12. **🎛️ Fase 12 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
 
 ---
 
