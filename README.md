@@ -301,6 +301,12 @@ Transforma el cómputo de GitHub Actions en una nube serverless completa sin ser
   </a>
 </p>
 
+<p align="center">
+  <strong>SPHEXN</strong> es la suite determinista de gobernanza continua, blindaje estructural de repositorios, auditoría AST, auto-curación de suites de tests y filtro anti-alucinaciones para código generado por agentes de IA a coste $0 del ecosistema Terra.
+</p>
+
+Opera como la avispa cazadora solitaria (*Sphecini*), paralizando defectos estructurales y derivas arquitectónicas antes de que alcancen producción. Se articula a través de 4 especies deterministas: **Ichneumon** (auditoría AST, AST Diff semántico, detección de breaking changes, verificación de contratos de tipos y grafos de impacto), **Ammophila** (análisis y auto-curación de suites de tests, generación de tests de regresión automáticos y cobertura de mutación estructural), **Sceliphron** (DevOps y pipelines CI/CD declarativos ejecutables directamente desde archivos Markdown mediante bloques reproducibles) y **Obscurus Rex** (filtro estricto anti-alucinaciones para código generado por IA con detección de dependencias ficticias, alucinaciones semánticas de APIs y jailbreaks de políticas). Almacena matrices de salud y auditorías en el vault privado `.sphexn-storage`. Incluye consola web interactiva 24/7 **Sphexn Studio** (en GitHub Pages), CLI global (`npm install -g terra-sphexn`) y SDK TypeScript nativo.
+
 👉 **Explora el repositorio oficial de Sphexn:** [Sphexn Public Repository](https://github.com/amglogicalis/sphexn-repo-public)
 
 ---
@@ -308,7 +314,7 @@ Transforma el cómputo de GitHub Actions en una nube serverless completa sin ser
 <a id="las-aplicaciones-del-ecosistema"></a>
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
-El ecosistema está compuesto por **23 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
+El ecosistema está compuesto por **20 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
 
 | App | Dominio | Estado | Descripción |
 | :--- | :--- | :---: | :--- |
@@ -330,9 +336,6 @@ El ecosistema está compuesto por **23 aplicaciones modulares** («Titanes») qu
 | 🐝 **MockHive** | *Compute & Serverless* | 🟢 **Completado** | Servidores virtuales Ubuntu (HiveNodes), máquinas de estados (Waggles), micro-handlers (PollenPods) y cluster Map-Reduce (HiveGrid). |
 | 🐝 **Sphexn** | *Gobernanza & Auditoría* | 🟢 **Completado** | Suite determinista de gobernanza, auditoría AST, auto-curación de tests, DevOps en Markdown y filtro anti-alucinaciones ($0 Compute). |
 | 🦟 **Phryx** | *Phantom Mesh & Zero-Trust* | 🟡 **Próxima — Siguiente en Desarrollo** | Red privada efímera, túneles localhost públicos ($0 ngrok-killer), salto de firewall dinámico (SilkFilter) y SSH efímero Zero-Trust. |
-| ⚡ **Pheri** | *Real-Time Streaming* | ⚪ *Planificado* | Tuberías de eventos y streaming de alta frecuencia de coste cero. |
-| 🦗 **Chiton** | *Gobernanza & FinOps* | ⚪ *Planificado* | Blindaje preventivo de PRs, escaneo de secretos y auditoría multicloud. |
-| 🦋 **Decrefly** | *Control Financiero* | ⚪ *Planificado* | Motor de equilibrio activo, techo financiero y arquitectura de suma cero. |
 | 📊 **Libella** | *Observabilidad & Telemetría* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes efímero. |
 | 🎛️ **Terra Console & Hub** | *Orquestación & Comunidad* | ⚪ *Planificado* | Centro de mando unificado y ecosistema público (Forest, Library, Colony). |
 
@@ -350,11 +353,10 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 5. **🐝 Fase 5 — Compute & Serverless:** `MockHive` ✅ *(completado — servidores virtuales, state machines, micro-handlers y Map-Reduce)*
 6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ✅ ➡️ `Lepism` ✅ *(salud estructural y validación de lo existente)*
 7. **🧠 Fase 7 — Inteligencia Artificial & ML:** `Mantx` ✅ *(completado — fine-tuning, arena de batallas, memoria ecdysis y auto-heal)*
-8. **🐝 Fase 8 — Gobernanza & Blindaje Continuo:** `Sphexn` ✅ *(completado — suite determinista de gobernanza, auditoría AST, auto-curación de tests, DevOps en Markdown y filtro anti-alucinaciones)*
+8. **🐝 Fase 8 — Gobernanza & Blindaje Determinista:** `Sphexn` ✅ *(completado — suite determinista de gobernanza, auditoría AST, auto-curación de tests, DevOps en Markdown y filtro anti-alucinaciones)*
 9. **🦟 Fase 9 — The Phantom Mesh & Zero-Trust:** `Phryx` 🚧 *(próxima en desarrollo — red privada efímera, túneles localhost públicos $0 ngrok-killer, salto de firewall dinámico SilkFilter y SSH efímero Zero-Trust)*
-10. **⚡ Fase 10 — Streaming & Tiempo Real:** `Pheri` *(tuberías de eventos y streaming de alta frecuencia de coste cero)*
-11. **🧹 Fase 11 — Gobernanza & Control:** `Chiton` ➡️ `Decrefly` ➡️ `Libella` *(solo útil cuando hay infra activa — Formica Legionarys ya disponible ✅)*
-12. **🎛️ Fase 12 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
+10. **📊 Fase 10 — Observabilidad & Telemetría:** `Libella` *(panóptico universal de telemetría, métricas y control de costes efímero — solo útil cuando hay infra activa)*
+11. **🎛️ Fase 11 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
 
 ---
 
