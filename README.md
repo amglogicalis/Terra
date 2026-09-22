@@ -311,6 +311,24 @@ Opera como la avispa cazadora solitaria (*Sphecini*), paralizando defectos estru
 
 ---
 
+## 🦟 PHRYX: Phantom Mesh, Zero-Trust Tunnels, SSH CA & Distributed Edge Probing
+
+<p align="center">
+  <a href="https://github.com/amglogicalis/phryx-repo-public" target="_blank">
+    <img src="assets/logo_phryx.png" alt="Phryx Engine Logo" width="140" />
+  </a>
+</p>
+
+<p align="center">
+  <strong>PHRYX</strong> es la infraestructura de red fantasma efímera, túneles localhost públicos ($0 ngrok-killer), autoridad certificadora SSH Zero-Trust, sondeo perimetral multirregión y orquestación dinámica de firewalls perimetrales a coste $0 del ecosistema Terra.
+</p>
+
+Opera como la larva de la mosca frigánea (*Trichoptera*), tejiendo estuches protectores de camuflaje perimetral impenetrable. Se articula a través de 5 especies operativas: **PhryxTunnel** (túneles efímeros para exponer puertos locales a internet con HTTPS sin registro sobre Cloudflare Quick Tunnels y SSH Reverse Forwarding), **CaseShell** (SSH Certificate Authority Zero-Trust con firmas criptográficas Ed25519 y certificados efímeros de 15 min a 24 h sin claves estáticas vulnerables), **GeoLarva** (sonda de latencia multirregión y monitor global distribuido en 6 continentes sobre GitHub Actions con IPs reales de Azure y desglose de 5 fases de latencia), **SilkFilter / PhryxReach** (orquestador de 5 fases para saltos seguros y reversibles de firewalls en AWS SG, GCP Firewall y Cloudflare con purga fail-safe de residuo cero) y **SilkRoute** (pasarelas de proxies dinámicos y gateways de egreso). Todo persistido en el vault atómico `.phryx-storage` sin costes fijos. Incluye consola web interactiva 24/7 (desplegada online en vivo), paquete CLI global (`npm install -g terra-phryx`) y SDK TypeScript nativo con 0 dependencias en runtime.
+
+👉 **Explora el repositorio oficial de Phryx:** [Phryx Public Repository](https://github.com/amglogicalis/phryx-repo-public)
+
+---
+
 <a id="las-aplicaciones-del-ecosistema"></a>
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
@@ -335,8 +353,8 @@ El ecosistema está compuesto por **20 aplicaciones modulares** («Titanes») qu
 | 🧠 **Mantx** | *AutoML, Fine-Tuning & LLMOps* | 🟢 **Completado** | Motor autónomo de entrenamiento (Nimphys), síntesis de datos (Forge), batallas comparativas y auto-heal a coste $0. |
 | 🐝 **MockHive** | *Compute & Serverless* | 🟢 **Completado** | Servidores virtuales Ubuntu (HiveNodes), máquinas de estados (Waggles), micro-handlers (PollenPods) y cluster Map-Reduce (HiveGrid). |
 | 🐝 **Sphexn** | *Gobernanza & Auditoría* | 🟢 **Completado** | Suite determinista de gobernanza, auditoría AST, auto-curación de tests, DevOps en Markdown y filtro anti-alucinaciones ($0 Compute). |
-| 🦟 **Phryx** | *Phantom Mesh & Zero-Trust* | 🟡 **Próxima — Siguiente en Desarrollo** | Red privada efímera, túneles localhost públicos ($0 ngrok-killer), salto de firewall dinámico (SilkFilter) y SSH efímero Zero-Trust. |
-| 📊 **Libella** | *Observabilidad & Telemetría* | ⚪ *Planificado* | Panóptico universal de telemetría, métricas y control de costes efímero. |
+| 🦟 **Phryx** | *Phantom Mesh & Zero-Trust* | 🟢 **Completado** | Red privada efímera, túneles localhost públicos ($0 ngrok-killer), SSH CA Zero-Trust, sondeo perimetral GeoLarva y orquestación ACL SilkFilter. |
+| 📊 **Libella** | *Observabilidad & Telemetría* | 🟡 **Próxima — Siguiente en Desarrollo** | Panóptico universal de telemetría, métricas y control de costes efímero. |
 | 🎛️ **Terra Console & Hub** | *Orquestación & Comunidad* | ⚪ *Planificado* | Centro de mando unificado y ecosistema público (Forest, Library, Colony). |
 
 ---
@@ -354,8 +372,8 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 6. **🧪 Fase 6 — Testing & Calidad:** `Maskito` ✅ ➡️ `Lepism` ✅ *(salud estructural y validación de lo existente)*
 7. **🧠 Fase 7 — Inteligencia Artificial & ML:** `Mantx` ✅ *(completado — fine-tuning, arena de batallas, memoria ecdysis y auto-heal)*
 8. **🐝 Fase 8 — Gobernanza & Blindaje Determinista:** `Sphexn` ✅ *(completado — suite determinista de gobernanza, auditoría AST, auto-curación de tests, DevOps en Markdown y filtro anti-alucinaciones)*
-9. **🦟 Fase 9 — The Phantom Mesh & Zero-Trust:** `Phryx` 🚧 *(próxima en desarrollo — red privada efímera, túneles localhost públicos $0 ngrok-killer, salto de firewall dinámico SilkFilter y SSH efímero Zero-Trust)*
-10. **📊 Fase 10 — Observabilidad & Telemetría:** `Libella` *(panóptico universal de telemetría, métricas y control de costes efímero — solo útil cuando hay infra activa)*
+9. **🦟 Fase 9 — The Phantom Mesh & Zero-Trust:** `Phryx` ✅ *(completado — red privada efímera, túneles localhost públicos $0 ngrok-killer, SSH CA Zero-Trust, sondeo multirregión GeoLarva y orquestación ACL SilkFilter)*
+10. **📊 Fase 10 — Observabilidad & Telemetría:** `Libella` 🚧 *(próxima en desarrollo — panóptico universal de telemetría, métricas y control de costes efímero — solo útil cuando hay infra activa)*
 11. **🎛️ Fase 11 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
 
 ---
