@@ -329,6 +329,24 @@ Opera como la larva de la mosca frigánea (*Trichoptera*), tejiendo estuches pro
 
 ---
 
+## 📊 LIBELLA: The Universal Panopticon, Edge Time-Series & Multi-Cloud FinOps
+
+<p align="center">
+  <a href="https://github.com/amglogicalis/libella-repo-public" target="_blank">
+    <img src="assets/logo_libella.png" alt="Libella Panopticon Logo" width="140" />
+  </a>
+</p>
+
+<p align="center">
+  <strong>LIBELLA</strong> es el Panóptico Universal de observabilidad, monitorización de latencias en series temporales, ingestión polimórfica y control de costes (FinOps) a coste $0 del ecosistema Terra.
+</p>
+
+Inspirada en la libélula (*Libellula* / *Odonata*), posee visión perimetral omnidireccional de 360° gracias a su motor **Ommatidia Engine**, compuesto por 7 Lentes Polimórficas (Multi-Cloud AWS/Azure/GCP, PaaS Vercel/Netlify, Data Upstash/Redis, AI/LLMOps Token Tracker con cálculo de dólares en vivo, OpenTelemetry OTLP, Terra Native y BYOL JSON). Organiza la supervisión en cuatro cuadrantes (**Tetrapteryx**): Vitals (percentiles p50 a p99 y RPS), Logs & Trazas estructuradas, FinOps multi-proveedor y Pulse (Status Pages públicas interactivas). Incorpora **Circuit Breakers Autónomos** con Action Hooks agnósticos (Webhooks HTTP, GitHub Dispatch y alertas a Discord/Slack) y compresión columnar perpetua mediante el **Cronógrafo** sobre GitHub Releases. Incluye consola web interactiva 24/7 (desplegada en GitHub Pages y en local con puerto configurable), paquete CLI global (`npm install -g terra-libella`) y SDK TypeScript isomórfico con 0 dependencias en runtime.
+
+👉 **Explora el repositorio oficial de Libella:** [Libella Public Repository](https://github.com/amglogicalis/libella-repo-public)
+
+---
+
 <a id="las-aplicaciones-del-ecosistema"></a>
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
@@ -354,8 +372,8 @@ El ecosistema está compuesto por **20 aplicaciones modulares** («Titanes») qu
 | 🐝 **MockHive** | *Compute & Serverless* | 🟢 **Completado** | Servidores virtuales Ubuntu (HiveNodes), máquinas de estados (Waggles), micro-handlers (PollenPods) y cluster Map-Reduce (HiveGrid). |
 | 🐝 **Sphexn** | *Gobernanza & Auditoría* | 🟢 **Completado** | Suite determinista de gobernanza, auditoría AST, auto-curación de tests, DevOps en Markdown y filtro anti-alucinaciones ($0 Compute). |
 | 🦟 **Phryx** | *Phantom Mesh & Zero-Trust* | 🟢 **Completado** | Red privada efímera, túneles localhost públicos ($0 ngrok-killer), SSH CA Zero-Trust, sondeo perimetral GeoLarva y orquestación ACL SilkFilter. |
-| 📊 **Libella** | *Observabilidad & Telemetría* | 🟡 **Próxima — Siguiente en Desarrollo** | Panóptico universal de telemetría, métricas y control de costes efímero. |
-| 🎛️ **Terra Console & Hub** | *Orquestación & Comunidad* | ⚪ *Planificado* | Centro de mando unificado y ecosistema público (Forest, Library, Colony). |
+| 📊 **Libella** | *Observabilidad & Telemetría* | 🟢 **Completado** | Panóptico universal de telemetría, métricas en series temporales, FinOps multi-cloud y disyuntores autónomos. |
+| 🎛️ **Terra Console & Hub** | *Orquestación & Comunidad* | 🟡 **Próxima — Siguiente en Desarrollo** | Centro de mando unificado y ecosistema público (Forest, Library, Colony). |
 
 ---
 
@@ -373,8 +391,8 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 7. **🧠 Fase 7 — Inteligencia Artificial & ML:** `Mantx` ✅ *(completado — fine-tuning, arena de batallas, memoria ecdysis y auto-heal)*
 8. **🐝 Fase 8 — Gobernanza & Blindaje Determinista:** `Sphexn` ✅ *(completado — suite determinista de gobernanza, auditoría AST, auto-curación de tests, DevOps en Markdown y filtro anti-alucinaciones)*
 9. **🦟 Fase 9 — The Phantom Mesh & Zero-Trust:** `Phryx` ✅ *(completado — red privada efímera, túneles localhost públicos $0 ngrok-killer, SSH CA Zero-Trust, sondeo multirregión GeoLarva y orquestación ACL SilkFilter)*
-10. **📊 Fase 10 — Observabilidad & Telemetría:** `Libella` 🚧 *(próxima en desarrollo — panóptico universal de telemetría, métricas y control de costes efímero — solo útil cuando hay infra activa)*
-11. **🎛️ Fase 11 — Plataforma:** `Terra Console & Hub` *(centro de mando y comunidad)*
+10. **📊 Fase 10 — Observabilidad & Telemetría:** `Libella` ✅ *(completado — panóptico universal de telemetría, métricas en series temporales, FinOps multi-cloud y disyuntores autónomos)*
+11. **🎛️ Fase 11 — Plataforma:** `Terra Console & Hub` 🚧 *(próxima en desarrollo — centro de mando unificado y ecosistema público: Forest, Library, Colony)*
 
 ---
 
