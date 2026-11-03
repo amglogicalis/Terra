@@ -347,10 +347,28 @@ Inspirada en la libélula (*Libellula* / *Odonata*), posee visión perimetral om
 
 ---
 
+## 🪲 INSECTARIUM: Universal IaC Orchestrator, Polyglot Biomes & Drift Self-Healing
+
+<p align="center">
+  <a href="https://github.com/amglogicalis/insectarium-repo-public" target="_blank">
+    <img src="assets/logo_insectarium.png" alt="Insectarium IaC Logo" width="140" />
+  </a>
+</p>
+
+<p align="center">
+  <strong>INSECTARIUM</strong> es el orquestador universal de Infraestructura como Código (IaC), motor de Biomes políglotas, grafo de dependencias DAG y reconciliación autónoma de deriva (Drift Self-Healing) a coste $0 del ecosistema Terra.
+</p>
+
+Inspirado en un vivario cristalino de precisión geométrica, unifica bajo un único plano de control el despliegue real y E2E tanto de las **19+ aplicaciones nativas de Terra** (`terra_combase_db`, `terra_webbl_site`, `terra_rolla_ball`, `terra_lumina_auth`, `terra_ballom_gateway`, `terra_formica_crawler`, `terra_maskito_stress`, etc.) como de proveedores cloud externos (**AWS, Azure, GCP, Cloudflare, Vercel, GitHub, Docker y Kubernetes**) mediante transpilación transparente a Terraform/OpenTofu. Soporta definiciones bidireccionales en **4 sintaxis intercambiables** (**JSON**, **YAML**, **HCL `.tf`** y **TypeScript Blueprints**), resolución topológica por oleadas paralelas (**Kahn's DAG Engine**), estado atómico con bloqueo optimista e historial de snapshots (**State & Lock Engine** sobre `.insectarium-storage`), inyección de secretos Zero-Leak en memoria RAM (**Sinchlor Native Bridge**) y auto-reparación continua en GitHub Actions (**Autonomous Drift Detector**). Incluye la consola visual interactiva **The Vivarium Console v2.0** (`insectarium console`), paquete CLI global (`npm install -g terra-insectarium`) y SDK TypeScript nativo con 0 dependencias en runtime.
+
+👉 **Explora el repositorio oficial de Insectarium:** [Insectarium Public Repository](https://github.com/amglogicalis/insectarium-repo-public)
+
+---
+
 <a id="las-aplicaciones-del-ecosistema"></a>
 ## 🏛️ Las Aplicaciones del Ecosistema Terra
 
-El ecosistema está compuesto por **20 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
+El ecosistema está compuesto por **21 aplicaciones modulares** («Titanes») que pueden operar de forma aislada o en perfecta sinergia:
 
 | App | Dominio | Estado | Descripción |
 | :--- | :--- | :---: | :--- |
@@ -373,6 +391,7 @@ El ecosistema está compuesto por **20 aplicaciones modulares** («Titanes») qu
 | 🐝 **Sphexn** | *Gobernanza & Auditoría* | 🟢 **Completado** | Suite determinista de gobernanza, auditoría AST, auto-curación de tests, DevOps en Markdown y filtro anti-alucinaciones ($0 Compute). |
 | 🦟 **Phryx** | *Phantom Mesh & Zero-Trust* | 🟢 **Completado** | Red privada efímera, túneles localhost públicos ($0 ngrok-killer), SSH CA Zero-Trust, sondeo perimetral GeoLarva y orquestación ACL SilkFilter. |
 | 📊 **Libella** | *Observabilidad & Telemetría* | 🟢 **Completado** | Panóptico universal de telemetría, métricas en series temporales, FinOps multi-cloud y disyuntores autónomos. |
+| 🪲 **Insectarium** | *IaC & Orquestación Cloud* | 🟢 **Completado** | Orquestador universal IaC (JSON/YAML/HCL/TS), grafo DAG por oleadas, provisión real Terra + Multi-Cloud y auto-curación de deriva. |
 | 🎛️ **Terra Console & Hub** | *Orquestación & Comunidad* | 🟡 **Próxima — Siguiente en Desarrollo** | Centro de mando unificado y ecosistema público (Forest, Library, Colony). |
 
 ---
@@ -392,7 +411,8 @@ El criterio de ordenación es sencillo: **no se implementa una herramienta hasta
 8. **🐝 Fase 8 — Gobernanza & Blindaje Determinista:** `Sphexn` ✅ *(completado — suite determinista de gobernanza, auditoría AST, auto-curación de tests, DevOps en Markdown y filtro anti-alucinaciones)*
 9. **🦟 Fase 9 — The Phantom Mesh & Zero-Trust:** `Phryx` ✅ *(completado — red privada efímera, túneles localhost públicos $0 ngrok-killer, SSH CA Zero-Trust, sondeo multirregión GeoLarva y orquestación ACL SilkFilter)*
 10. **📊 Fase 10 — Observabilidad & Telemetría:** `Libella` ✅ *(completado — panóptico universal de telemetría, métricas en series temporales, FinOps multi-cloud y disyuntores autónomos)*
-11. **🎛️ Fase 11 — Plataforma:** `Terra Console & Hub` 🚧 *(próxima en desarrollo — centro de mando unificado y ecosistema público: Forest, Library, Colony)*
+11. **🪲 Fase 11 — Infraestructura como Código (IaC):** `Insectarium` ✅ *(completado — orquestador universal IaC políglota JSON/YAML/HCL/TS, grafo DAG, provisión E2E Terra + Multi-Cloud y Drift Self-Healing)*
+12. **🎛️ Fase 12 — Plataforma:** `Terra Console & Hub` 🚧 *(próxima en desarrollo — centro de mando unificado y ecosistema público: Forest, Library, Colony)*
 
 ---
 
